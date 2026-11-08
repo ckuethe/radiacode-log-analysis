@@ -1,0 +1,4 @@
+*.md
+*.json
+*.pyc
+__pycache__
