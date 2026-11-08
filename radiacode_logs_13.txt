@@ -1,0 +1,193 @@
+﻿#RadiaCode Log file Oct 31, 2026 12:17:58 GMT-07:00
+Package:         "com.almacode.radiacode"
+Version:         "1.66.03"
+Version code:    16605
+apk built:       Jun 8, 2026 01:16:08
+Build:           33748
+Debug:           0
+Debuggable:      false
+First installed: Dec 19, 2023 15:14:19
+PID:             19739
+Locale:          "en", United States
+Android SDK:     37 (17)
+Brand:           "google"
+Manufacturer:    "Google"
+MODEL:           "Pixel 8"
+[Market] Name:   "Pixel 8"
+DEVICE, DISPLAY, HARDWARE, PRODUCT, TAGS, TYPE, BOARD, HOST: "shiba", "CP3A.261005.005", "shiba", "shiba", "release-keys", "user", "shiba", "dfe813dd10e5"
+USER:            "android-build"
+UID:             "65755E2A74F01BD04F37232BFA675239"
+Screen:          1080x2400, 6.2"
+Theme:           Dark
+Bluetooth:       BLE supported
+RAM (T/Free):    7.16 GB\1.13 GB, Low: false, Low threshold: 216.0 MB
+Flash (T/Free):  228.83 GB\78.33 GB
+Battery:         *85%, Ignoring optimization: true
+Processors:      9
+
+12:17:58.2: 12:17:58.2: CommonApplication static code
+12:17:58.2: RadiaCodeApplication::attachBaseContext()
+12:17:58.2: RadiaCodeApplication::onCreate()
+12:17:58.3: CommonActivity static code
+12:17:58.3: Creating context for language: English
+12:17:58.3: Language of context: English
+12:17:58.3: InitEngine("CommonActivity"): , , 
+12:17:58.3: Creating backup: Last - 4 day(s) ago, intl: 1
+12:17:58.3: Opened database "/storage/emulated/0/Android/data/com.almacode.radiacode/files/Database.db"
+12:17:58.3: Closed database "/storage/emulated/0/Android/data/com.almacode.radiacode/files/Database.db"
+12:18:00.2: Opened database "/storage/emulated/0/Android/data/com.almacode.radiacode/files/Database.db"
+12:18:05.3: Loading spectrum: "Cambridge BG"
+12:18:05.3: Loading built-in isotope file "Isotopes_10x.csv"
+12:18:05.3: Loading built-in isotope file "Isotopes_10x.csv"
+12:18:05.3: Loading built-in isotope file "Isotopes_10x.csv"
+12:18:05.3: Loading built-in isotope file "Isotopes_10x.csv"
+12:18:05.4: Loading built-in isotope file "Isotopes_103G.csv"
+12:18:05.4: Loading built-in isotope file "Isotopes_11x.csv"
+12:18:05.4: Loading built-in isotope file "Isotopes_10x.csv"
+12:18:05.6: Creating context for language: English
+12:18:05.6: Language of context: English
+12:18:05.7: MainActivity: FirstUIRedraw == true, Waiting until we are visible
+12:18:05.7: Starting InternalQueueEntry "WaitVisible"
+12:18:05.7: MainActivity::WaitVisible(Entry): ac != null = true, ac.IsResumed() = true
+12:18:05.7: MainActivity::WaitVisible(P, 6C32C66): 0x0
+12:18:05.8: Send_OnCustomEvent(EVT_OPTION_CHANGED, 0, 0)
+12:18:05.9: Starting InternalQueueEntry "WaitVisible"
+12:18:05.9: MainActivity::WaitVisible(Entry): ac != null = true, ac.IsResumed() = true
+12:18:05.9: MainActivity::WaitVisible(P, 6C32C66): 1080x2400
+12:18:05.9: Finished InternalQueueEntry "WaitVisible"
+12:18:06.0: bp0::OnVisible()
+12:18:06.0: Send_OnCustomEvent(EVT_OPTION_CHANGED, 0, 0)
+12:18:06.0: Starting InternalQueueEntry "CheckDatabase"
+12:18:06.0: Finished InternalQueueEntry "CheckDatabase"
+12:18:06.0: Starting InternalQueueEntry "GetPermissions"
+12:18:06.0: == ServicePMResolver: ==
+                 FOREGROUND_SERVICE: Granted, IsRejected: false, Requesting: false, Rationale: false
+                 POST_NOTIFICATIONS: Granted, IsRejected: false, Requesting: false, Rationale: false
+FOREGROUND_SERVICE_CONNECTED_DEVICE: Granted, IsRejected: false, Requesting: false, Rationale: false
+        FOREGROUND_SERVICE_LOCATION: Granted, IsRejected: false, Requesting: false, Rationale: false
+12:18:06.0: Finished InternalQueueEntry "GetPermissions"
+12:18:06.7: Send_OnCustomEvent(EVT_STORE_UPDATE, 3, 0)
+12:18:06.7: Starting InternalQueueEntry "DBExport"
+12:18:06.7: Finished InternalQueueEntry "DBExport"
+12:18:06.7: Starting InternalQueueEntry "FinishInit"
+12:18:06.7: Starting Worker...
+12:18:06.7: FrameReaderWorker.Start()
+12:18:06.7: [@10-31-2026 12:18:06] FrameReaderWorker::FrameReaderWorker()
+12:18:06.7: ActMain != null
+12:18:06.8: Finished InternalQueueEntry "FinishInit"
+12:18:06.8: Send_OnCustomEvent(13 (0xD), 0, 0)
+12:18:06.8: Starting InternalQueueEntry "SetStartPage"
+12:18:06.8: Finished InternalQueueEntry "SetStartPage"
+12:18:06.8: Starting InternalQueueEntry "OpenMap"
+12:18:06.8: Finished InternalQueueEntry "OpenMap"
+12:18:06.8: [@10-31-2026 12:18:06] FrameReaderWorker.doWork()
+12:18:06.8: FrameReaderWorker: Entering WorkingLoop()
+12:18:06.8: Google Play Services: Available
+12:18:07.8: Requesting BT enable...
+12:18:26.6: MainActivity::onActivityResult(requestCode = 252771700, resultCode = -1, intent = null
+12:18:26.6: MainActivity::onActivityResult(requestCode = 1, resultCode = -1, intent = null
+12:18:26.6: Send_OnCustomEvent(EVT_BT_ON, -1, 0)
+12:18:26.6: Enabling BT: Ok
+12:18:26.6: Send_OnCustomEvent(13 (0xD), 0, 0)
+12:18:26.7: Send_OnCustomEvent(EVT_OPTION_CHANGED, 0, 0)
+12:18:26.7: bp0::OnVisible()
+12:18:26.8: BLE scan started.
+12:18:26.8: Send_OnCustomEvent(EVT_SCAN_STARTED, 0, 0)
+12:18:27.010: Classic scanner: Found LE device. Name: "00:06:80:31:7B:DB", Addr: "SZG CL4250S"
+12:18:27.014: Classic scanner: Found LE device. Name: "30:C9:22:A3:7E:CE", Addr: "FR:ID16RE000939"
+12:18:27.016: Classic scanner: Found Dual device. Name: "4B:11:C0:AA:F2:D1", Addr: "N7X3B"
+12:18:27.017: Classic scanner: Found LE device. Name: "C0:F8:53:F5:F5:A7", Addr: "TY"
+12:18:27.019: Classic scanner: Found LE device. Name: "88:57:21:05:8F:CE", Addr: "Venus_885721058FCE"
+12:18:28.2: BLE scan stopped (0).
+12:18:28.2: Send_OnCustomEvent(EVT_SCAN_STOPPED, 0, 0)
+12:18:28.2: Setting fragment: "bl0."
+12:18:28.2: bl0::OnVisible()
+12:18:28.8: BLE scan started.
+12:18:28.8: Send_OnCustomEvent(EVT_SCAN_STARTED, 0, 0)
+12:18:29.210: Classic scanner: Found LE device. Name: "C0:F8:53:F5:F5:A7", Addr: "TY"
+12:18:29.225: Classic scanner: Found LE device. Name: "88:57:21:05:8F:CE", Addr: "Venus_885721058FCE"
+12:18:29.559: Classic scanner: Found LE device. Name: "00:06:80:31:7B:DB", Addr: "SZG CL4250S"
+12:18:30.275: Classic scanner: Found LE device. Name: "52:43:09:90:05:5B", Addr: "RadiaCode-103G#RC-103G-001371"
+12:18:30.2: Addr: "52:43:09:90:05:5B", Name: "RadiaCode-103G#RC-103G-001371" -> "RadiaCode-103G, S/N: RC-103G-001371"
+12:18:30.2: Send_OnCustomEvent(EVT_DEVICE, 5, 0)
+12:18:30.642: Classic scanner: Found Dual device. Name: "52:22:35:0F:02:4F", Addr: "great wall of pixels"
+12:18:30.911: LE scanner: Found LE device. Name: "52:43:09:90:05:5B", Addr: "RadiaCode-103G#RC-103G-001371"
+12:18:31.312: Classic scanner: Found LE device. Name: "30:C9:22:A3:7E:CE", Addr: "FR:ID16RE000939"
+12:18:35.562: Classic scanner: Found LE device. Name: "CC:04:B4:0C:2A:15", Addr: "cc:04:b4:0c:2a:15"
+12:18:35.6: BLE scan stopped (0).
+12:18:35.6: Send_OnCustomEvent(EVT_SCAN_STOPPED, 0, 0)
+12:18:35.6: Send_OnCustomEvent(EVT_SCAN_STOPPED, 0, 0)
+12:18:35.6: Send_OnCustomEvent(EVT_SCAN_STOPPED, 0, 0)
+12:18:35.7: Send_OnCustomEvent(EVT_SCAN_STOPPED, 0, 0)
+12:18:35.7: ExchangerBLE.Connect("RadiaCode-103G#RC-103G-001371", Key = "52:43:09:90:05:5B", Id = 219712314)
+12:18:36.4: Connected BLE device "RadiaCode-103G"
+12:18:36.4: discoverServices() Ok
+12:18:37.1: Got characteristics
+12:18:37.1: Setting timeout: 2000
+12:18:37.1: _OnDeviceFound*[00.SET_EXCHANGE: 12] 00000008 80000007 01 FF 12 FF Got 20 bytes: 10 00 00 00 07 00 00 80 05 01 DA DA 20 10 00 10 00 01 00 00
+12:18:37.3:  _OnDeviceFound*<00.SET_EXCHANGE: 20, 114/10 ms> 00000010 80000007 05 01 DA DA 20 10 00 10 00 01 00 00  TARGET_ID: DADA0105, TX Size: 4128, RX Size: 4096, IF_READY = 0, IF_TYPE = 1
+12:18:37.3: Setting timeout: 5000
+12:18:37.3: Cancelling location updates
+12:18:37.338: BTLECallbackHandlerGatt::Close()
+Disconnected BLE device "RadiaCode-103G"
+12:18:37.3: 12:18:37.361: Closed Bluetooth device "RadiaCode-103G"
+12:18:37.3: Send_OnCustomEvent(EVT_DEVICE, 2, 0)
+12:18:37.3: Cancelling location updates
+12:18:37.3: Send_OnCustomEvent(EVT_SCAN_STOPPED, 0, 0)
+12:18:37.3: ExchangerBLE.Connect("RadiaCode-103G#RC-103G-001371", Key = "52:43:09:90:05:5B", Id = 219712314)
+12:18:37.3: Connected BLE device "RadiaCode-103G"
+12:18:37.3: discoverServices() Ok
+12:18:42.3: Failed to connect to the "RadiaCode-103G" device: Timeout.
+12:18:42.3: Cancelling location updates
+12:18:42.422: BTLECallbackHandlerGatt::Close()
+12:18:42.429: Closed Bluetooth device "RadiaCode-103G"
+12:18:42.4: Send_OnCustomEvent(EVT_DEVICE, 2, 0)
+12:18:42.4: Send_OnCustomEvent(EVT_SCAN_STOPPED, 0, 0)
+12:18:42.4: ExchangerBLE.Connect("RadiaCode-103G#RC-103G-001371", Key = "52:43:09:90:05:5B", Id = 219712314)
+12:18:42.4: Connected BLE device "RadiaCode-103G"
+12:18:42.4: discoverServices() Ok
+12:18:43.0: Got characteristics
+12:18:43.0: Setting timeout: 2000
+12:18:43.0: _OnDeviceFound*[00.SET_EXCHANGE: 12] 00000008 80000007 01 FF 12 FF Got 20 bytes: 10 00 00 00 07 00 00 80 05 01 DA DA 20 10 00 10 00 01 00 00
+12:18:43.3:  _OnDeviceFound*<00.SET_EXCHANGE: 20, 247/10 ms> 00000010 80000007 05 01 DA DA 20 10 00 10 00 01 00 00  TARGET_ID: DADA0105, TX Size: 4128, RX Size: 4096, IF_READY = 0, IF_TYPE = 1
+12:18:43.3: Setting timeout: 5000
+12:18:43.3: Cancelling location updates
+12:18:43.318: BTLECallbackHandlerGatt::Close()
+Disconnected BLE device "RadiaCode-103G"
+12:18:43.3: 12:18:43.344: Closed Bluetooth device "RadiaCode-103G"
+12:18:43.3: Send_OnCustomEvent(EVT_DEVICE, 2, 0)
+12:18:43.3: Cancelling location updates
+12:18:43.3: Send_OnCustomEvent(EVT_SCAN_STOPPED, 0, 0)
+12:18:43.3: ExchangerBLE.Connect("RadiaCode-103G#RC-103G-001371", Key = "52:43:09:90:05:5B", Id = 219712314)
+12:18:43.3: Connected BLE device "RadiaCode-103G"
+12:18:43.3: discoverServices() Ok
+12:18:43.9: Got characteristics
+12:18:43.9: Setting timeout: 2000
+12:18:43.9: _OnDeviceFound*[00.SET_EXCHANGE: 12] 00000008 80000007 01 FF 12 FF Got 20 bytes: 10 00 00 00 07 00 00 80 05 01 DA DA 20 10 00 10 00 01 00 00
+12:18:44.0:  _OnDeviceFound*<00.SET_EXCHANGE: 20, 89/10 ms> 00000010 80000007 05 01 DA DA 20 10 00 10 00 01 00 00  TARGET_ID: DADA0105, TX Size: 4128, RX Size: 4096, IF_READY = 0, IF_TYPE = 1
+12:18:44.0: Setting timeout: 5000
+12:18:44.0: Cancelling location updates
+12:18:44.085: BTLECallbackHandlerGatt::Close()
+Disconnected BLE device "RadiaCode-103G"
+12:18:44.1: 12:18:44.110: Closed Bluetooth device "RadiaCode-103G"
+12:18:44.1: Send_OnCustomEvent(EVT_DEVICE, 2, 0)
+12:18:44.1: Cancelling location updates
+12:18:44.1: Send_OnCustomEvent(EVT_DEVICE, 7, 2131886366)
+12:18:44.1: "Failed to connect to the device"
+12:18:44.1: MessageBoxEx("Information", "The device RadiaCode-103G is connected, but is in operation with another application via USB interface."
+"To allow the program to work with the device, close that another application.")
+12:18:46.7: [OK]
+12:18:48.1: MessageBoxer("", "Exit application?")
+12:18:49.0: [Yes]
+12:18:49.0: [@10-31-2026 12:18:06] FrameReaderWorker.Stop()
+12:18:49.0: Cancelling location updates
+12:18:49.0: FrameReaderWorker: Exiting WorkingLoop()
+12:18:49.0: [@10-31-2026 12:18:06] FrameReaderWorker: Returning from doWork(): Success
+12:18:49.0: [@10-31-2026 12:18:06] FRWorker state: RUNNING
+12:18:49.1: [@10-31-2026 12:18:06] FRWorker state: SUCCEEDED
+12:18:49.1: [@10-31-2026 12:18:06] FRWorker state: SUCCEEDED
+12:18:49.1: [@10-31-2026 12:18:06] FRWorker state: SUCCEEDED
+12:18:49.1: [@10-31-2026 12:18:06] Worker stopped
+12:18:49.1: Cancelling "FRWorker" workers
+12:18:49.1: Closed database "/storage/emulated/0/Android/data/com.almacode.radiacode/files/Database.db"
+12:18:50.3: --- SystemExit() ---

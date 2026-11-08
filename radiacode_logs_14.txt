@@ -1,0 +1,881 @@
+﻿#RadiaCode Log file Oct 31, 2026 13:04:10 GMT-07:00
+Package:         "com.almacode.radiacode"
+Version:         "1.66.03"
+Version code:    16605
+apk built:       Jun 8, 2026 01:16:08
+Build:           33748
+Debug:           0
+Debuggable:      false
+First installed: Dec 19, 2023 15:14:19
+PID:             24538
+Locale:          "en"
+Android SDK:     37 (17)
+Brand:           "google"
+Manufacturer:    "Google"
+MODEL:           "Pixel 8"
+[Market] Name:   "Pixel 8"
+DEVICE, DISPLAY, HARDWARE, PRODUCT, TAGS, TYPE, BOARD, HOST: "shiba", "CP3A.261005.005", "shiba", "shiba", "release-keys", "user", "shiba", "dfe813dd10e5"
+USER:            "android-build"
+UID:             "65755E2A74F01BD04F37232BFA675239"
+Screen:          1080x2400, 6.2"
+Theme:           Dark
+Bluetooth:       BLE supported
+RAM (T/Free):    7.16 GB\1.39 GB, Low: false, Low threshold: 216.0 MB
+Flash (T/Free):  228.83 GB\78.46 GB
+Battery:         100%, Ignoring optimization: true
+Processors:      9
+
+13:04:10.3: 13:04:10.2: CommonApplication static code
+13:04:10.2: RadiaCodeApplication::attachBaseContext()
+13:04:10.3: RadiaCodeApplication::onCreate()
+13:04:10.6: CommonActivity static code
+13:04:10.6: ACReceiver: android.hardware.usb.action.USB_DEVICE_DETACHED
+13:04:10.6: Loading built-in isotope file "Isotopes_10x.csv"
+13:04:10.6: Loading built-in isotope file "Isotopes_10x.csv"
+13:04:10.7: Loading built-in isotope file "Isotopes_10x.csv"
+13:04:10.7: Loading built-in isotope file "Isotopes_10x.csv"
+13:04:10.7: Loading built-in isotope file "Isotopes_103G.csv"
+13:04:10.8: Loading built-in isotope file "Isotopes_11x.csv"
+13:04:10.8: Loading built-in isotope file "Isotopes_10x.csv"
+13:05:11.7: Creating context for language: English
+13:05:11.7: Language of context: English
+13:05:11.7: InitEngine("CommonActivity"): , , 
+13:05:11.7: Already have today backup
+13:05:11.7: Opened database "/storage/emulated/0/Android/data/com.almacode.radiacode/files/Database.db"
+13:05:15.0: Loading spectrum: "Cambridge BG"
+13:05:15.1: Creating context for language: English
+13:05:15.1: Language of context: English
+13:05:15.1: MainActivity: FirstUIRedraw == true, Waiting until we are visible
+13:05:15.1: Starting InternalQueueEntry "WaitVisible"
+13:05:15.1: MainActivity::WaitVisible(Entry): ac != null = true, ac.IsResumed() = true
+13:05:15.1: MainActivity::WaitVisible(P, D68D6EE): 0x0
+13:05:15.2: Send_OnCustomEvent(EVT_OPTION_CHANGED, 0, 0)
+13:05:15.3: Starting InternalQueueEntry "WaitVisible"
+13:05:15.3: MainActivity::WaitVisible(Entry): ac != null = true, ac.IsResumed() = true
+13:05:15.3: MainActivity::WaitVisible(P, D68D6EE): 1080x2400
+13:05:15.3: Finished InternalQueueEntry "WaitVisible"
+13:05:15.3: Send_OnCustomEvent(13 (0xD), 0, 0)
+13:05:15.3: Send_OnCustomEvent(EVT_OPTION_CHANGED, 0, 0)
+13:05:15.3: bp0::OnVisible()
+13:05:15.3: Starting InternalQueueEntry "CheckDatabase"
+13:05:15.3: Finished InternalQueueEntry "CheckDatabase"
+13:05:15.3: Starting InternalQueueEntry "GetPermissions"
+13:05:15.3: == ServicePMResolver: ==
+                 FOREGROUND_SERVICE: Granted, IsRejected: false, Requesting: false, Rationale: false
+                 POST_NOTIFICATIONS: Granted, IsRejected: false, Requesting: false, Rationale: false
+FOREGROUND_SERVICE_CONNECTED_DEVICE: Granted, IsRejected: false, Requesting: false, Rationale: false
+        FOREGROUND_SERVICE_LOCATION: Granted, IsRejected: false, Requesting: false, Rationale: false
+13:05:15.3: Finished InternalQueueEntry "GetPermissions"
+13:05:15.9: Send_OnCustomEvent(EVT_STORE_UPDATE, 3, 0)
+13:05:15.9: Starting InternalQueueEntry "DBExport"
+13:05:15.9: Finished InternalQueueEntry "DBExport"
+13:05:15.9: Starting InternalQueueEntry "FinishInit"
+13:05:15.9: Starting Worker...
+13:05:15.9: FrameReaderWorker.Start()
+13:05:15.9: [@10-31-2026 13:05:15] FrameReaderWorker::FrameReaderWorker()
+13:05:15.9: ActMain != null
+13:05:15.9: Finished InternalQueueEntry "FinishInit"
+13:05:16.0: Starting InternalQueueEntry "SetStartPage"
+13:05:16.0: Finished InternalQueueEntry "SetStartPage"
+13:05:16.0: Starting InternalQueueEntry "OpenMap"
+13:05:16.0: Finished InternalQueueEntry "OpenMap"
+13:05:16.0: [@10-31-2026 13:05:15] FrameReaderWorker.doWork()
+13:05:16.0: FrameReaderWorker: Entering WorkingLoop()
+13:05:16.0: Google Play Services: Available
+13:05:17.0: ==== USB device list is empty ===
+13:05:23.0: Send_OnCustomEvent(EVT_SCAN_STOPPED, 0, 0)
+13:05:23.0: Setting fragment: "bl0."
+13:05:23.0: bl0::OnVisible()
+13:05:24.0: ==== USB device list is empty ===
+13:05:26.0: ==== USB device list is empty ===
+13:05:28.4: ACReceiver: android.hardware.usb.action.USB_DEVICE_ATTACHED
+13:05:29.0: ==== USB device list ===
+13:05:29.0:  RC-103G-001371: "RadiaCode RadiaCode-103G"
+13:05:29.0: Send_OnCustomEvent(EVT_DEVICE, 5, 0)
+13:05:31.3: Send_OnCustomEvent(13 (0xD), 0, 0)
+13:05:31.3: Send_OnCustomEvent(EVT_SCAN_STOPPED, 0, 0)
+13:05:31.3: Send_OnCustomEvent(EVT_OPTION_CHANGED, 0, 0)
+13:05:31.3: bp0::OnVisible()
+13:05:31.3: bl0::OnVisible()
+13:05:32.0: ==== USB device list ===
+13:05:32.0:  RC-103G-001371: "RadiaCode RadiaCode-103G"
+13:05:32.0: Send_OnCustomEvent(EVT_DEVICE, 5, 0)
+13:05:33.0: ==== USB device list ===
+13:05:33.0:  RC-103G-001371: "RadiaCode RadiaCode-103G"
+13:05:33.5: Send_OnCustomEvent(EVT_SCAN_STOPPED, 0, 0)
+13:05:33.5: Send_OnCustomEvent(EVT_SCAN_STOPPED, 0, 0)
+13:05:33.5: Send_OnCustomEvent(EVT_SCAN_STOPPED, 0, 0)
+13:05:33.6: Send_OnCustomEvent(EVT_SCAN_STOPPED, 0, 0)
+13:05:33.6: Opened USB device "RadiaCode-103G"
+13:05:33.7: Setting timeout: 2000
+13:05:33.7: _OnDeviceFound*[00.SET_EXCHANGE: 12] 00000008 80000007 01 FF 12 FF  _OnDeviceFound*<00.SET_EXCHANGE: 20, 1/10 ms> 00000010 80000007 05 01 DA DA 20 20 00 10 01 01 00 00  TARGET_ID: DADA0105, TX Size: 8224, RX Size: 4096, IF_READY = 1, IF_TYPE = 1
+13:05:33.7: Setting timeout: 5000
+13:05:33.7: *** Starting Boot ***
+13:05:33.7: _OnDeviceFound*[01.GET_STATUS: 8] 00000004 81000005   _OnDeviceFound*<01.GET_STATUS: 12, 1/0 ms> 00000008 81000005 02 00 00 00  Status = 00000002: INIT_BIT
+13:05:33.7: _OnDeviceFound*[02.GET_VERSION: 8] 00000004 8200000A   _OnDeviceFound*<02.GET_VERSION: 59, 1/0 ms> 00000037 8200000A 01 00 04 00 14 4D 61 79 20 31 36 20 32 30 32 35 20 31 31 3A 35 32 3A 35 39 0E 00 04 00 15 4A 75 6C 20 20 37 20 32 30 32 35 20 31 31 3A 32 31 3A 33 35 00 
+13:05:33.7: _OnDeviceFound*[03.FW_IMAGE_GET_INFO: 8] 00000004 83000012   _OnDeviceFound*<03.FW_IMAGE_GET_INFO: 24, 0/226 ms> 00000014 83000012 8C FD 01 00 00 10 00 00 CF 42 E7 5A 8A 8B B4 1E 
+13:05:34.0: _OnDeviceFound*[04.RD_FLASH_AREA: 12] 00000008 8400081C 01 00 00 00  _OnDeviceFound*<04.RD_FLASH_AREA: 468, 0/1 ms> 000001D0 8400081C 00 00 00 00 A0 9A 38 D5 D4 5B 41 AE EA 3E 59 12 B4 86 73 29 D9 2A 76 83 1D A8 CD 6F 00 8B C8 0A 02 3C 7D FE 43 8E 09 4D 8E A3 3C 87 38 24 2C F6 3A 1D 7C B1 93 FD F5 A3 9F 79 B5 36 71 66 83 09 A4 99 0A 55 20 AC 7D 2A C7 26 76 FE B5 74 C8 A8 53 FB A8 77 A6 93 D3 71 E7 BE FD A2 5E A5 42 CC FE DB 1A 26 DC FC 6A 46 95 9B 05 0C CA 54 A4 97 99 D8 10 71 07 69 F7 BA 80 F1 FC A1 81 A4 02 23 87 D8 BA 08 39 24 6B 1B D1 B8 01 A9 D0 FC 59 3C E2 6D CC 99 0F B4 FA F7 E0 0D D8 82 76 C9 FC 10 E7 49 0B D2 07 41 72 76 32 74 EC A8 7A A5 7F 0F 08 71 F3 E5 16 AE 73 A0 7A DC 46 66 36 83 B3 E7 09 0E 8E 5E 98 E4 DE 11 4C C4 A3 6F 10 87 AD 88 E2 9C 9E 4E 75 8E FB 2D 5B 26 5D 45 58 16 BE 20 4D D2 04 B2 68 AE CC 97 8A 38 78 88 F9 D8 7B 1E 47 A6 E4 CB 82 8C 29 16 9D 9D 36 17 1F B4 B6... 
+13:05:34.0: FLASH_OK
+13:05:34.0: 
+---- PUBLIC_AREA ----
+PublicSignat       = 0x19601217
+StructLen          = 448
+BootSignat         = 0x5AB046A1 (May 16, 2025 08:53:02)
+ProdSerNumber      = "RC-103G-001371"
+TrgFileName        = "rc-103g.bin"
+ProdName           = "RadiaCode-103G"
+CalibBP0           = 1476
+CalibBP290         = 3095
+VID                = 0x483
+PID                = 0xF123
+MnfctName          = "RadiaCode"
+Target_ID          = 0xDADA0105
+TargetStartTimeOut = 3000
+13:05:34.0: _OnDeviceFound*[05.RD_SIGNAT: 8] 00000004 85000101   _OnDeviceFound*<05.RD_SIGNAT: 43, 0/1 ms> 00000027 85000101 CF 42 E7 5A 0B 72 63 2D 31 30 33 67 2E 62 69 6E 10 52 61 64 69 61 43 6F 64 65 20 52 43 2D 31 30 33 01 30 
+13:05:34.0: Signature: 5AE742CF, FileName="rc-103g.bin", IdString="RadiaCode RC-103", Status=30
+13:05:34.0: Checking target file "rc-103gz.bin"
+13:05:34.0: Target version: 4.14
+13:05:34.0: "rc-103gz.bin" signature match
+13:05:34.0: _OnDeviceFound*[06.GET_VERSION: 8] 00000004 8600000A   _OnDeviceFound*<06.GET_VERSION: 59, 0/0 ms> 00000037 8600000A 01 00 04 00 14 4D 61 79 20 31 36 20 32 30 32 35 20 31 31 3A 35 32 3A 35 39 0E 00 04 00 15 4A 75 6C 20 20 37 20 32 30 32 35 20 31 31 3A 32 31 3A 33 35 00 
+13:05:34.0: _OnDeviceFound*[07.GET_SERIAL: 8] 00000004 8700000B   _OnDeviceFound*<07.GET_SERIAL: 24, 0/1 ms> 00000014 8700000B 0C 00 00 00 49 00 21 00 0F 50 30 46 4D 38 35 20 
+13:05:34.0: 
+Boot version:     4.01, May 16 2025 11:52:59
+Target version:   4.14, Jul  7 2025 11:21:35
+Device Name:      RadiaCode-103G
+Serial Number:    RC-103G-001371
+HW Serial Number: 00210049-4630500F-2035384D
+13:05:34.0: _OnDeviceFound*[08.RD_HW_CONFIG: 8] 00000004 88000807   _OnDeviceFound*<08.RD_HW_CONFIG: 23, 0/1 ms> 00000013 88000807 0F 00 00 00 00 00 00 00 00 00 01 E8 03 00 00 
+13:05:34.0: 
+------ HW Conf ------
+Photo sensors: 0
+A\D sensors:   0
+Pumps:         0
+Fast valves:   0
+Slow valves:   0
+SD cards:      0
+LCD:           1
+FrameTick:     1000 us
+---------------------
+13:05:34.0: *** Boot complete: true ***
+13:05:34.0: Send_OnCustomEvent(EVT_BOOT_COMPLETE, 1, 0)
+13:05:34.0: 
+--- Using device model "RC-103G" ---
+ Compensation:    GAGG_10x10x10.txt
+ Isotopes:        Isotopes_103G.csv
+ Containers:      Containers_103G.csv
+ IsotopeHardness: IsotopeHardness_103G.csv
+ PDK:             PDK.csv
+13:05:34.0: VS_CONFIGURATION loaded from cache
+13:05:34.0: _OnDeviceFound*[09.RD_VIRT_SFR_BATCH: 80] 0000004C 8900082A 11 00 00 00 04 80 00 00 13 80 00 00 16 80 00 00 02 05 00 00 00 05 00 00 E0 05 00 00 20 05 00 00 30 05 00 00 10 05 00 00 11 05 00 00 13 05 00 00 00 80 00 00 01 80 00 00 14 80 00 00 15 80 00 00 08 80 00 00 09 80 00 00  _OnDeviceFound*<09.RD_VIRT_SFR_BATCH: 80, 0/129 ms> 0000004C 8900082A FF FF 01 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 2B 00 00 00 01 00 00 00 91 13 00 00 FF 1C 00 00 09 00 00 00 05 00 00 00 03 00 00 00 28 00 00 00 78 00 00 00 FF C9 9A 3B FF C9 9A 3B C8 00 00 00 58 02 00 00 
+Valid flags = 0x1FFFF
+RC_VSFR_DS_UNITS (0x8004) = 1
+RC_VSFR_CR_UNITS (0x8013) = 0
+RC_VSFR_TEMP_UNITS (0x8016) = 0
+VSFR_DEVICE_LANG (0x502) = 0
+VSFR_DEVICE_CTRL (0x500) = 43 (0x2B)
+VSFR_ALARM_MODE (0x5E0) = 1
+VSFR_SOUND_CTRL (0x520) = 5009 (0x1391)
+VSFR_VIBRO_CTRL (0x530) = 7423 (0x1CFF)
+VSFR_DISP_CTRL (0x510) = 9
+VSFR_DISP_BRT (0x511) = 5
+VSFR_DISP_OFF_TIME (0x513) = 3
+RC_VSFR_DR_LEV1_uR_h (0x8000) = 40 (0x28)
+RC_VSFR_DR_LEV2_uR_h (0x8001) = 120 (0x78)
+RC_VSFR_DS_LEV1_uR (0x8014) = 999999999 (0x3B9AC9FF)
+RC_VSFR_DS_LEV2_uR (0x8015) = 999999999 (0x3B9AC9FF)
+RC_VSFR_CR_LEV1_cp10s (0x8008) = 200 (0xC8)
+RC_VSFR_CR_LEV2_cp10s (0x8009) = 600 (0x258)
+
+13:05:34.1: Send_OnCustomEvent(EVT_DEVICE_SETTINGS, 0, 1)
+13:05:34.1: Write VSFR: VSFR_DEVICE_TIME (0x504) = 0
+_OnDeviceFound*[0A.WR_VIRT_SFR: 16] 0000000C 8A000825 04 05 00 00 00 00 00 00  _OnDeviceFound*<0A.WR_VIRT_SFR: 12, 0/1 ms> 00000008 8A000825 01 00 00 00 Status = 1
+13:05:34.1: Batt: 100%, Screen: On, RAM: 1.40 GB, Flash: 78.46 GB
+13:05:34.1: _OnDeviceFound*[0B.SET_LOCAL_TIME: 16] 0000000C 8B000A04 1F 0A 1A 00 22 05 0D 00  _OnDeviceFound*<0B.SET_LOCAL_TIME: 8, 0/1 ms> 00000004 8B000A04  
+13:05:34.1: Read VString: RC_VS_ENERGY_CALIB (0x202)
+_OnDeviceFound*[0C.RD_VIRT_STRING: 12] 00000008 8C000826 02 02 00 00  _OnDeviceFound*<0C.RD_VIRT_STRING: 28, 0/0 ms> 00000018 8C000826 01 00 00 00 0C 00 00 00 38 78 D0 41 BA 66 0C 40 38 26 13 3A Status = 1
+12 bytes
+13:05:34.1: Write VSFR: RC_VSFR_RAW_FILTER (0x8006) = 0
+_OnDeviceFound*[0D.WR_VIRT_SFR: 16] 0000000C 8D000825 06 80 00 00 00 00 00 00  _OnDeviceFound*<0D.WR_VIRT_SFR: 12, 1/0 ms> 00000008 8D000825 00 00 00 00 Status = 0
+13:05:34.1: Read VSFR: VSFR_SYS_FW_VER_BT (0xFFFF0010)
+_OnDeviceFound*[0E.RD_VIRT_SFR: 12] 00000008 8E000824 10 00 FF FF  _OnDeviceFound*<0E.RD_VIRT_SFR: 16, 0/0 ms> 0000000C 8E000824 01 00 00 00 16 42 00 00 Status = 1, Value = 16918 (0x4216)
+13:05:34.1: BLE module version: 42.16
+13:05:34.1: Send_OnCustomEvent(EVT_BOOT_COMPLETE, 1, 1)
+13:05:34.1: Starting InternalQueueEntry "OnBootComplete"
+13:05:34.1: Send_OnCustomEvent(EVT_DEVICE, 1, 0)
+13:05:34.1: Finished InternalQueueEntry "OnBootComplete"
+13:05:34.2: Initializing SpectrumReader
+13:05:34.2: Read VString: RC_VS_SPEC_ACCUM (0x205)
+pool-7-thread-1*[0F.RD_VIRT_STRING: 12] 00000008 8F000826 05 02 00 00  pool-7-thread-1*<0F.RD_VIRT_STRING: 2195, 0/4 ms> 0000088F 8F000826 01 00 00 00 83 08 00 00 F1 E1 10 01 38 78 D0 41 BA 66 0C 40 38 26 13 3A 00 00 00 00 E4 02 D1 84 38 D5 6D 33 BC E3 10 4C BD EB 09 27 EE 6B 9E 00 07 B7 10 F6 E3 19 17 55 12 9A A1 FB FB 6B EA 4B AA EA 80 85 F7 38 A6 07 AC 27 16 99 62 22 37 16 2A E2 EF 26 F4 A6 14 C5 E0 F8 D7 52 E0 53 DE D5 7F 5D DA 32 7B E7 76 72 F3 D3 D0 FA 0E 44 FD AE 50 FD 32 C1 FC 48 62 FC 6D 74 FC 09 88 FC CC 01 FC DE A3 FB 51 79 FB 57 A4 FB 55 23 FC 94 B2 FC 88 4D FD A6 AB FD 62 E0 FD AC 1E FE 65 63 FE FA BD FE E2 FD FE 9F 55 FF D3 01 92 90 5B AC 6D C4 16 C2 9D DC DC CE 20 D0 64 D3 3E CB 00 CF BA A5 4D CA 0A 8E F2 89 13 93 93 8F 8A 97 1D B1 3B CC 86 D8 62 1A 98 1F D0 34 18 44 FF 1D FC 1A 37 DD B2 B0 CB 80 74 00 84 63 FF B1 4A FF 0B 4B FF 83 36 FF D2 44 FF 5A 57 FF 62 6C FF 53 00 9F 81... Status = 1
+2179 bytes
+13:05:34.2: Read VString: RC_VS_SPEC_RESET (0x207)
+pool-7-thread-1*[10.RD_VIRT_STRING: 12] 00000008 90000826 07 02 00 00  pool-7-thread-1*<10.RD_VIRT_STRING: 2185, 0/3 ms> 00000885 90000826 01 00 00 00 79 08 00 00 A8 E1 05 01 00 00 00 00 E4 02 2E 68 38 F7 4D 33 7D DB 10 25 B6 EB 19 0E EE 4B 6D 00 7E 83 10 CD C4 19 55 4F 12 47 AF FB ED 8C EA 46 C8 EA 9B 92 F7 27 A7 07 FA 1F 16 25 59 22 D2 0F 2A 34 E7 26 AD 9F 14 32 D7 F8 2E 4C E0 64 D7 D5 97 56 DA 02 75 E7 DE 6E F3 D0 CD FA 01 41 FD 59 4F FD 4E C4 FC 6B 63 FC 34 7A FC 56 8D FC 59 04 FC F6 A9 FB C9 7A FB 5C AA FB D4 27 FC FC B5 FC 5C 51 FD 1B AF FD 49 E5 FD 7A 21 FE D3 67 FE B3 C1 FE 8F 01 FF 71 5A FF D3 01 10 93 99 B0 2C C8 13 C6 AF DE CB D3 73 D3 1B D6 B5 CE 06 D3 76 A9 E5 CB A7 91 95 8D A4 95 12 93 83 99 1A B5 B6 CD 1A DC E9 1B 95 23 89 35 7D 46 88 20 A4 1D D4 DD C0 B2 86 83 74 00 78 65 FF 04 4D FF C2 4B FF D8 38 FF 7D 45 FF DE 58 FF 6B 6F FF 53 00 96 82 B6 A9 A5 D0 94 1E 90 4D 34 01 D5 A9... Status = 1
+2169 bytes
+13:05:34.2: Read VString: RC_VS_SPEC_DIFF (0x206)
+pool-7-thread-1*[11.RD_VIRT_STRING: 12] 00000008 91000826 06 02 00 00  pool-7-thread-1*<11.RD_VIRT_STRING: 26, 0/1 ms> 00000016 91000826 01 00 00 00 0A 00 00 00 00 00 00 00 00 00 00 00 00 40 Status = 1
+10 bytes
+13:05:34.2: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[12.RD_VIRT_STRING: 12] 00000008 92000826 00 01 00 00  androidx.work-1*<12.RD_VIRT_STRING: 1024, 1/1 ms> 000003FC 92000826 01 00 00 00 F0 03 00 00 E5 00 00 F1 CD FF FF 00 C0 47 40 FC 18 9B 36 45 00 D0 00 40 20 00 E6 01 01 01 E7 FF FF 02 00 31 00 00 00 00 00 00 41 E0 2D 10 36 00 00 80 40 C3 64 AA 35 E7 01 01 65 E7 FF FF 02 00 31 00 00 00 00 00 00 41 E0 2D 90 36 00 00 00 40 34 80 B7 35 E8 01 01 C9 E7 FF FF 02 00 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00 40 17 B7 D1 34 E9 01 01 2D E8 FF FF 02 00 31 00 00 00 00 00 00 00 00 00 00 00 00 00 80 40 52 49 1D 36 EA 01 01 91 E8 FF FF 02 00 31 00 00 00 00 00 00 40 52 49 1D 35 00 00 C0 40 8F C2 F5 36 EB 01 01 F5 E8 FF FF 02 00 31 00 00 00 00 00 00 00 00 00 00 00 00 00 20 41 54 E3 A5 38 EC 01 01 59 E9 FF FF 02 00 31 00 00 00 00 00 80 40 34 80 B7 35 00 00 80 40 C3 64 AA 35 ED 01 01 BC E9 FF FF 02 00 31 00 00 00 00 00 00 40 34 80 37 35 00... Status = 1
+1008 bytes
+13:05:34.2: == #229 S_MEAS: GRP_RealTimeData, +ms = -12815 (2026-10-31 13:03:26.014), CHN_CountRate = 3.12 cps, CHN_DoseRate = 46.2 nSv/h, CHN_CountRateErr = 69 -> 6.9%, CHN_DoseRateErr = 208 -> 20.8%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:34.2: == #230 M_MEAS:      GRP_RawData, +ms = -6399 (2026-10-31 13:04:30.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 8 cps, CHN_DoseRate = 21.5 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 12.7 nSv/h
+
+13:05:34.2: == #231 M_MEAS:      GRP_RawData, +ms = -6299 (2026-10-31 13:04:31.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 8 cps, CHN_DoseRate = 43 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 13.7 nSv/h
+
+13:05:34.2: == #232 M_MEAS:      GRP_RawData, +ms = -6199 (2026-10-31 13:04:32.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+
+13:05:34.2: == #233 M_MEAS:      GRP_RawData, +ms = -6099 (2026-10-31 13:04:33.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 23.4 nSv/h
+
+13:05:34.2: == #234 M_MEAS:      GRP_RawData, +ms = -5999 (2026-10-31 13:04:34.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 5.86 nSv/h
+  #1: CHN_CountRate = 6 cps, CHN_DoseRate = 73.2 nSv/h
+
+13:05:34.2: == #235 M_MEAS:      GRP_RawData, +ms = -5899 (2026-10-31 13:04:35.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 10 cps, CHN_DoseRate = 791 nSv/h
+
+13:05:34.2: == #236 M_MEAS:      GRP_RawData, +ms = -5799 (2026-10-31 13:04:36.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 13.7 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 12.7 nSv/h
+
+13:05:34.2: == #237 M_MEAS:      GRP_RawData, +ms = -5700 (2026-10-31 13:04:37.164), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 6.84 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 6.84 nSv/h
+
+13:05:34.2: == #238 M_MEAS:      GRP_RawData, +ms = -5599 (2026-10-31 13:04:38.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 5.86 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 135 nSv/h
+
+13:05:34.2: == #239 M_MEAS:      GRP_RawData, +ms = -5499 (2026-10-31 13:04:39.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 10.7 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+
+13:05:34.2: == #240 M_MEAS:      GRP_RawData, +ms = -5399 (2026-10-31 13:04:40.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 7.81 nSv/h
+  #1: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+
+13:05:34.2: == #241 M_MEAS:      GRP_RawData, +ms = -5299 (2026-10-31 13:04:41.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 8 cps, CHN_DoseRate = 374 nSv/h
+  #1: CHN_CountRate = 8 cps, CHN_DoseRate = 30.3 nSv/h
+
+13:05:34.2: == #242 M_MEAS:      GRP_RawData, +ms = -5199 (2026-10-31 13:04:42.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 31.2 nSv/h
+
+13:05:34.2: == #243 M_MEAS:      GRP_RawData, +ms = -5099 (2026-10-31 13:04:43.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 29.3 nSv/h
+
+13:05:34.2: == #244 M_MEAS:      GRP_RawData, +ms = -4999 (2026-10-31 13:04:44.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 21.5 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 8.79 nSv/h
+
+13:05:34.2: == #245 M_MEAS:      GRP_RawData, +ms = -4899 (2026-10-31 13:04:45.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 168 nSv/h
+
+13:05:34.2: == #246 M_MEAS:      GRP_RawData, +ms = -4799 (2026-10-31 13:04:46.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 12 cps, CHN_DoseRate = 619 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 64.5 nSv/h
+
+13:05:34.2: == #247 M_MEAS:      GRP_RawData, +ms = -4699 (2026-10-31 13:04:47.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 48.8 nSv/h
+
+13:05:34.2: == #248 M_MEAS:      GRP_RawData, +ms = -4599 (2026-10-31 13:04:48.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 6 cps, CHN_DoseRate = 75.2 nSv/h
+  #1: CHN_CountRate = 6 cps, CHN_DoseRate = 460 nSv/h
+
+13:05:34.2: == #249 M_MEAS:      GRP_RawData, +ms = -4499 (2026-10-31 13:04:49.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 9.77 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+
+13:05:34.2: == #250 M_MEAS:      GRP_RawData, +ms = -4399 (2026-10-31 13:04:50.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 32.2 nSv/h
+
+13:05:34.2: == #251 M_MEAS:      GRP_RawData, +ms = -4299 (2026-10-31 13:04:51.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 11.7 nSv/h
+  #1: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+
+13:05:34.2: == #252 M_MEAS:      GRP_RawData, +ms = -4199 (2026-10-31 13:04:52.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+  #1: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+
+13:05:34.2: == #253 M_MEAS:      GRP_RawData, +ms = -4099 (2026-10-31 13:04:53.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 15.6 nSv/h
+  #1: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+
+13:05:34.2: == #254 M_MEAS:      GRP_RawData, +ms = -3999 (2026-10-31 13:04:54.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 8.79 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 206 nSv/h
+
+13:05:34.2: == #255 M_MEAS:      GRP_RawData, +ms = -3899 (2026-10-31 13:04:55.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 29.3 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+
+13:05:34.2: == #0   M_MEAS:      GRP_RawData, +ms = -3799 (2026-10-31 13:04:56.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 36.1 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 9.77 nSv/h
+
+13:05:34.2: == #1   M_MEAS:      GRP_RawData, +ms = -3699 (2026-10-31 13:04:57.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+
+13:05:34.2: == #2   M_MEAS:      GRP_RawData, +ms = -3600 (2026-10-31 13:04:58.164), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 8.79 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+
+13:05:34.2: == #3   M_MEAS:      GRP_RawData, +ms = -3499 (2026-10-31 13:04:59.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 5.86 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 13.7 nSv/h
+
+13:05:34.2: == #4   M_MEAS:      GRP_RawData, +ms = -3399 (2026-10-31 13:05:00.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 6.84 nSv/h
+
+13:05:34.2: == #5   M_MEAS:      GRP_RawData, +ms = -3299 (2026-10-31 13:05:01.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+
+13:05:34.2: == #6   M_MEAS:      GRP_RawData, +ms = -3199 (2026-10-31 13:05:02.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 8 cps, CHN_DoseRate = 13.7 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 11.7 nSv/h
+
+13:05:34.2: == #7   M_MEAS:      GRP_RawData, +ms = -3099 (2026-10-31 13:05:03.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 2.93 nSv/h
+
+13:05:34.2: Cancelling location updates
+13:05:34.7: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[13.RD_VIRT_STRING: 12] 00000008 93000826 00 01 00 00  androidx.work-1*<13.RD_VIRT_STRING: 965, 0/2 ms> 000003C1 93000826 01 00 00 00 B5 03 00 00 08 01 01 49 F4 FF FF 02 00 31 00 00 00 00 00 00 41 FA ED EB 35 00 00 00 00 00 00 00 00 09 01 01 AD F4 FF FF 02 00 31 00 00 00 00 00 00 40 42 60 65 36 00 00 C0 40 0A D7 23 36 0A 01 01 11 F5 FF FF 02 00 31 00 00 00 00 00 80 40 42 60 65 36 00 00 20 41 6F 12 03 36 0B 01 01 75 F5 FF FF 02 00 31 00 00 00 00 00 C0 40 72 8A 0E 37 00 00 C0 40 27 A0 89 36 0C 01 01 D9 F5 FF FF 02 00 31 00 00 00 00 00 C0 40 92 5C 7E 38 00 00 00 00 00 00 00 00 0D 01 01 3D F6 FF FF 02 00 31 00 00 00 00 00 80 40 6F 12 83 35 00 00 80 40 04 E7 8C 36 0E 01 01 A1 F6 FF FF 02 00 31 00 00 00 00 00 00 40 17 B7 51 35 00 00 00 40 6F 12 03 35 0F 01 01 05 F7 FF FF 02 00 31 00 00 00 00 00 C0 40 99 BB 16 36 00 00 80 40 6F 12 83 35 10 01 01 69 F7 FF FF 02 00 31 00 00 00 00 00... Status = 1
+949 bytes
+13:05:34.8: == #8   M_MEAS:      GRP_RawData, +ms = -2999 (2026-10-31 13:05:04.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 8 cps, CHN_DoseRate = 17.6 nSv/h
+  #1: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+
+13:05:34.8: == #9   M_MEAS:      GRP_RawData, +ms = -2899 (2026-10-31 13:05:05.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 34.2 nSv/h
+  #1: CHN_CountRate = 6 cps, CHN_DoseRate = 24.4 nSv/h
+
+13:05:34.8: == #10  M_MEAS:      GRP_RawData, +ms = -2799 (2026-10-31 13:05:06.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 34.2 nSv/h
+  #1: CHN_CountRate = 10 cps, CHN_DoseRate = 19.5 nSv/h
+
+13:05:34.8: == #11  M_MEAS:      GRP_RawData, +ms = -2699 (2026-10-31 13:05:07.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 6 cps, CHN_DoseRate = 85 nSv/h
+  #1: CHN_CountRate = 6 cps, CHN_DoseRate = 41 nSv/h
+
+13:05:34.8: == #12  M_MEAS:      GRP_RawData, +ms = -2599 (2026-10-31 13:05:08.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 6 cps, CHN_DoseRate = 606 nSv/h
+  #1: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+
+13:05:34.8: == #13  M_MEAS:      GRP_RawData, +ms = -2499 (2026-10-31 13:05:09.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 9.77 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 42 nSv/h
+
+13:05:34.8: == #14  M_MEAS:      GRP_RawData, +ms = -2399 (2026-10-31 13:05:10.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 7.81 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+
+13:05:34.8: == #15  M_MEAS:      GRP_RawData, +ms = -2299 (2026-10-31 13:05:11.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 6 cps, CHN_DoseRate = 22.5 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 9.77 nSv/h
+
+13:05:34.8: == #16  M_MEAS:      GRP_RawData, +ms = -2199 (2026-10-31 13:05:12.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 6 cps, CHN_DoseRate = 321 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 11.7 nSv/h
+
+13:05:34.8: == #17  M_MEAS:      GRP_RawData, +ms = -2099 (2026-10-31 13:05:13.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 10.7 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 7.81 nSv/h
+
+13:05:34.8: == #18  M_MEAS:      GRP_RawData, +ms = -1999 (2026-10-31 13:05:14.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 5.86 nSv/h
+
+13:05:34.8: == #19  M_MEAS:      GRP_RawData, +ms = -1899 (2026-10-31 13:05:15.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 15.6 nSv/h
+
+13:05:34.8: == #20  M_MEAS:      GRP_RawData, +ms = -1799 (2026-10-31 13:05:16.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 6 cps, CHN_DoseRate = 53.7 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 28.3 nSv/h
+
+13:05:34.8: == #21  M_MEAS:      GRP_RawData, +ms = -1699 (2026-10-31 13:05:17.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 8.79 nSv/h
+  #1: CHN_CountRate = 6 cps, CHN_DoseRate = 255 nSv/h
+
+13:05:34.8: == #22  M_MEAS:      GRP_RawData, +ms = -1599 (2026-10-31 13:05:18.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 6 cps, CHN_DoseRate = 35.2 nSv/h
+
+13:05:34.8: == #23  M_MEAS:      GRP_RawData, +ms = -1499 (2026-10-31 13:05:19.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 8.79 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 12.7 nSv/h
+
+13:05:34.8: == #24  M_MEAS:      GRP_RawData, +ms = -1399 (2026-10-31 13:05:20.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 6 cps, CHN_DoseRate = 41 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 9.77 nSv/h
+
+13:05:34.8: == #25  M_MEAS:      GRP_RawData, +ms = -1299 (2026-10-31 13:05:21.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 6.84 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 7.81 nSv/h
+
+13:05:34.8: == #26  M_MEAS:      GRP_RawData, +ms = -1199 (2026-10-31 13:05:22.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 8.79 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 26.4 nSv/h
+
+13:05:34.8: == #27  M_MEAS:      GRP_RawData, +ms = -1099 (2026-10-31 13:05:23.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 9.77 nSv/h
+  #1: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+
+13:05:34.8: == #28  M_MEAS:      GRP_RawData, +ms = -1000 (2026-10-31 13:05:24.164), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+  #1: CHN_CountRate = 8 cps, CHN_DoseRate = 25.4 nSv/h
+
+13:05:34.8: == #29  M_MEAS:      GRP_RawData, +ms =  -899 (2026-10-31 13:05:25.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 8 cps, CHN_DoseRate = 27.3 nSv/h
+  #1: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+
+13:05:34.8: == #30  M_MEAS:      GRP_RawData, +ms =  -799 (2026-10-31 13:05:26.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 5.86 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 83 nSv/h
+
+13:05:34.8: == #31  M_MEAS:      GRP_RawData, +ms =  -699 (2026-10-31 13:05:27.174), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 232 nSv/h
+
+13:05:34.8: == #32  M_MEAS:      GRP_RawData, +ms =  -600 (2026-10-31 13:05:28.164), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 6 cps, CHN_DoseRate = 20.5 nSv/h
+
+13:05:34.8: == #33  M_MEAS:      GRP_RawData, +ms =  -500 (2026-10-31 13:05:29.164), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 301 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 10.7 nSv/h
+
+13:05:34.8: == #34  M_MEAS:      GRP_RawData, +ms =  -400 (2026-10-31 13:05:30.164), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 6 cps, CHN_DoseRate = 37.1 nSv/h
+
+13:05:34.8: == #35  M_MEAS:      GRP_RawData, +ms =  -300 (2026-10-31 13:05:31.164), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 4 cps, CHN_DoseRate = 106 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 15.6 nSv/h
+
+13:05:34.8: == #36  M_MEAS:      GRP_RawData, +ms =  -200 (2026-10-31 13:05:32.164), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+
+13:05:34.8: == #37  M_MEAS:      GRP_RawData, +ms =  -100 (2026-10-31 13:05:33.164), SamplesNum = 2, SmplTime = 59 -> 590 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 6 cps, CHN_DoseRate = 45.9 nSv/h
+
+13:05:34.8: == #38  S_MEAS:      GRP_RawData, +ms =     0 (2026-10-31 13:05:34.164), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:05:34.8: == #39  S_MEAS:   GRP_DoseRateDB, +ms = -13274 (2026-10-31 13:03:21.424), CHN_Count = 297, CHN_CountRate = 3.09 cps, CHN_DoseRate = 45.5 nSv/h, CHN_DoseRateErr = 336 -> 33.6%, CHN_Flags = 0x1000, <Temp: Not defined>, Pwr: Accum, Flags = 00001000: Save to database
+13:05:34.8: == #40  M_MEAS:     GRP_RareData, +ms = -4636 (2026-10-31 13:04:47.804), SamplesNum = 2, SmplTime = 4596 -> 45960 ms
+  #0: CHN_Duration = 720922 s, CHN_Dose = 18.4 µSv, CHN_Temperature = 4037 -> 20.4°C, CHN_ChargeLevel = 10000 -> 100%, CHN_Flags = 0x1040, Alarms: -, Pwr: Accum, Flags = 00001000: Save to database
+  #1: CHN_Duration = 720968 s, CHN_Dose = 18.4 µSv, CHN_Temperature = 4043 -> 20.4°C, CHN_ChargeLevel = 10000 -> 100%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -
+
+13:05:35.3: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[14.RD_VIRT_STRING: 12] 00000008 94000826 00 01 00 00  androidx.work-1*<14.RD_VIRT_STRING: 53, 1/0 ms> 00000031 94000826 01 00 00 00 25 00 00 00 29 00 00 4A CE FF FF 00 C0 46 40 AA F1 9A 36 46 00 D1 00 40 20 00 2A 00 01 31 00 00 00 00 00 00 40 17 B7 D1 34 Status = 1
+37 bytes
+13:05:35.3: == #41  S_MEAS: GRP_RealTimeData, +ms = -12726 (2026-10-31 13:03:26.904), CHN_CountRate = 3.11 cps, CHN_DoseRate = 46.2 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 209 -> 20.9%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:35.3: == #42  S_MEAS:      GRP_RawData, +ms =    49 (2026-10-31 13:05:34.654), CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+13:05:35.8: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[15.RD_VIRT_STRING: 12] 00000008 95000826 00 01 00 00  androidx.work-1*<15.RD_VIRT_STRING: 31, 1/0 ms> 0000001B 95000826 01 00 00 00 0F 00 00 00 2B 00 01 64 00 00 00 00 00 80 40 6F 12 83 35 Status = 1
+15 bytes
+13:05:35.8: == #43  S_MEAS:      GRP_RawData, +ms =   100 (2026-10-31 13:05:35.164), CHN_CountRate = 4 cps, CHN_DoseRate = 9.77 nSv/h
+13:05:36.3: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[16.RD_VIRT_STRING: 12] 00000008 96000826 00 01 00 00  androidx.work-1*<16.RD_VIRT_STRING: 53, 0/1 ms> 00000031 96000826 01 00 00 00 25 00 00 00 2C 00 00 AE CE FF FF 00 40 46 40 2D 21 97 36 46 00 D3 00 40 20 00 2D 00 01 95 00 00 00 00 00 00 40 6F 12 03 35 Status = 1
+37 bytes
+13:05:36.3: == #44  S_MEAS: GRP_RealTimeData, +ms = -12626 (2026-10-31 13:03:27.904), CHN_CountRate = 3.1 cps, CHN_DoseRate = 45 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 211 -> 21.1%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:36.3: == #45  S_MEAS:      GRP_RawData, +ms =   149 (2026-10-31 13:05:35.654), CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+13:05:36.8: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[17.RD_VIRT_STRING: 12] 00000008 97000826 00 01 00 00  androidx.work-1*<17.RD_VIRT_STRING: 31, 2/1 ms> 0000001B 97000826 01 00 00 00 0F 00 00 00 2E 00 01 C8 00 00 00 00 00 00 00 00 00 00 00 Status = 1
+15 bytes
+13:05:36.8: == #46  S_MEAS:      GRP_RawData, +ms =   200 (2026-10-31 13:05:36.164), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:05:37.3: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[18.RD_VIRT_STRING: 12] 00000008 98000826 00 01 00 00  androidx.work-1*<18.RD_VIRT_STRING: 53, 1/1 ms> 00000031 98000826 01 00 00 00 25 00 00 00 2F 00 00 12 CF FF FF 00 80 46 40 5F 29 97 36 46 00 D3 00 40 20 00 30 00 01 F9 00 00 00 00 00 80 40 6F 12 83 35 Status = 1
+37 bytes
+13:05:37.3: == #47  S_MEAS: GRP_RealTimeData, +ms = -12526 (2026-10-31 13:03:28.904), CHN_CountRate = 3.1 cps, CHN_DoseRate = 45 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 211 -> 21.1%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:37.3: == #48  S_MEAS:      GRP_RawData, +ms =   249 (2026-10-31 13:05:36.654), CHN_CountRate = 4 cps, CHN_DoseRate = 9.77 nSv/h
+13:05:37.8: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[19.RD_VIRT_STRING: 12] 00000008 99000826 00 01 00 00  androidx.work-1*<19.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 99000826 01 00 00 00 0F 00 00 00 31 00 01 2C 01 00 00 00 00 00 40 52 49 9D 34 Status = 1
+15 bytes
+13:05:37.8: == #49  S_MEAS:      GRP_RawData, +ms =   300 (2026-10-31 13:05:37.164), CHN_CountRate = 2 cps, CHN_DoseRate = 2.93 nSv/h
+13:05:38.3: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1A.RD_VIRT_STRING: 12] 00000008 9A000826 00 01 00 00  androidx.work-1*<1A.RD_VIRT_STRING: 53, 2/0 ms> 00000031 9A000826 01 00 00 00 25 00 00 00 32 00 00 76 CF FF FF 00 40 46 40 FC 18 97 36 46 00 D3 00 40 20 00 33 00 01 5D 01 00 00 00 00 80 40 34 80 B7 35 Status = 1
+37 bytes
+13:05:38.4: == #50  S_MEAS: GRP_RealTimeData, +ms = -12426 (2026-10-31 13:03:29.904), CHN_CountRate = 3.1 cps, CHN_DoseRate = 45 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 211 -> 21.1%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:38.4: == #51  S_MEAS:      GRP_RawData, +ms =   349 (2026-10-31 13:05:37.654), CHN_CountRate = 4 cps, CHN_DoseRate = 13.7 nSv/h
+13:05:38.9: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1B.RD_VIRT_STRING: 12] 00000008 9B000826 00 01 00 00  androidx.work-1*<1B.RD_VIRT_STRING: 67, 1/1 ms> 0000003F 9B000826 01 00 00 00 33 00 00 00 34 00 00 DA CF FF FF 00 C0 46 40 E2 58 97 36 46 00 D3 00 40 20 00 35 01 01 90 01 00 00 02 00 31 00 00 00 00 00 C0 40 04 E7 8C 36 00 00 00 40 6F 12 03 35 Status = 1
+51 bytes
+13:05:38.9: == #52  S_MEAS: GRP_RealTimeData, +ms = -12326 (2026-10-31 13:03:30.904), CHN_CountRate = 3.11 cps, CHN_DoseRate = 45.1 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 211 -> 21.1%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:38.9: == #53  M_MEAS:      GRP_RawData, +ms =   400 (2026-10-31 13:05:38.164), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 6 cps, CHN_DoseRate = 42 nSv/h
+  #1: CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+
+13:05:39.4: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1C.RD_VIRT_STRING: 12] 00000008 9C000826 00 01 00 00  androidx.work-1*<1C.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 9C000826 01 00 00 00 0F 00 00 00 36 00 01 F5 01 00 00 00 00 00 40 52 49 9D 34 Status = 1
+15 bytes
+13:05:39.4: == #54  S_MEAS:      GRP_RawData, +ms =   501 (2026-10-31 13:05:39.174), CHN_CountRate = 2 cps, CHN_DoseRate = 2.93 nSv/h
+13:05:39.9: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1D.RD_VIRT_STRING: 12] 00000008 9D000826 00 01 00 00  androidx.work-1*<1D.RD_VIRT_STRING: 53, 0/1 ms> 00000031 9D000826 01 00 00 00 25 00 00 00 37 00 00 3E D0 FF FF 00 C0 45 40 B1 50 97 36 46 00 D3 00 40 20 00 38 00 01 25 02 00 00 00 00 00 40 34 80 37 36 Status = 1
+37 bytes
+13:05:39.9: == #55  S_MEAS: GRP_RealTimeData, +ms = -12226 (2026-10-31 13:03:31.904), CHN_CountRate = 3.09 cps, CHN_DoseRate = 45.1 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 211 -> 21.1%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:39.9: == #56  S_MEAS:      GRP_RawData, +ms =   549 (2026-10-31 13:05:39.654), CHN_CountRate = 2 cps, CHN_DoseRate = 27.3 nSv/h
+13:05:40.4: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1E.RD_VIRT_STRING: 12] 00000008 9E000826 00 01 00 00  androidx.work-1*<1E.RD_VIRT_STRING: 31, 1/0 ms> 0000001B 9E000826 01 00 00 00 0F 00 00 00 39 00 01 58 02 00 00 00 00 00 41 89 D2 DE 35 Status = 1
+15 bytes
+13:05:40.4: == #57  S_MEAS:      GRP_RawData, +ms =   600 (2026-10-31 13:05:40.164), CHN_CountRate = 8 cps, CHN_DoseRate = 16.6 nSv/h
+13:05:40.9: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1F.RD_VIRT_STRING: 12] 00000008 9F000826 00 01 00 00  androidx.work-1*<1F.RD_VIRT_STRING: 53, 1/1 ms> 00000031 9F000826 01 00 00 00 25 00 00 00 3A 00 00 A2 D0 FF FF 00 00 45 40 91 7E 93 36 46 00 D2 00 40 20 00 3B 00 01 89 02 00 00 00 00 C0 40 B3 7B 72 36 Status = 1
+37 bytes
+13:05:40.9: == #58  S_MEAS: GRP_RealTimeData, +ms = -12126 (2026-10-31 13:03:32.904), CHN_CountRate = 3.08 cps, CHN_DoseRate = 44 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 210 -> 21%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:40.9: == #59  S_MEAS:      GRP_RawData, +ms =   649 (2026-10-31 13:05:40.654), CHN_CountRate = 6 cps, CHN_DoseRate = 36.1 nSv/h
+13:05:41.4: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[00.RD_VIRT_STRING: 12] 00000008 80000826 00 01 00 00  androidx.work-1*<00.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 80000826 01 00 00 00 0F 00 00 00 3C 00 01 BC 02 00 00 00 00 80 40 17 B7 51 35 Status = 1
+15 bytes
+13:05:41.4: == #60  S_MEAS:      GRP_RawData, +ms =   700 (2026-10-31 13:05:41.164), CHN_CountRate = 4 cps, CHN_DoseRate = 7.81 nSv/h
+13:05:41.9: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[01.RD_VIRT_STRING: 12] 00000008 81000826 00 01 00 00  androidx.work-1*<01.RD_VIRT_STRING: 53, 1/1 ms> 00000031 81000826 01 00 00 00 25 00 00 00 3D 00 00 06 D1 FF FF 00 00 45 40 08 3D 93 36 46 00 D2 00 40 20 00 3E 00 01 ED 02 00 00 00 00 00 40 17 B7 D1 35 Status = 1
+37 bytes
+13:05:42.0: == #61  S_MEAS: GRP_RealTimeData, +ms = -12026 (2026-10-31 13:03:33.904), CHN_CountRate = 3.08 cps, CHN_DoseRate = 43.9 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 210 -> 21%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:42.0: == #62  S_MEAS:      GRP_RawData, +ms =   749 (2026-10-31 13:05:41.654), CHN_CountRate = 2 cps, CHN_DoseRate = 15.6 nSv/h
+13:05:42.5: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[02.RD_VIRT_STRING: 12] 00000008 82000826 00 01 00 00  androidx.work-1*<02.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 82000826 01 00 00 00 0F 00 00 00 3F 00 01 20 03 00 00 00 00 00 40 52 49 9D 34 Status = 1
+15 bytes
+13:05:42.5: == #63  S_MEAS:      GRP_RawData, +ms =   800 (2026-10-31 13:05:42.164), CHN_CountRate = 2 cps, CHN_DoseRate = 2.93 nSv/h
+13:05:43.0: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[03.RD_VIRT_STRING: 12] 00000008 83000826 00 01 00 00  androidx.work-1*<03.RD_VIRT_STRING: 53, 0/1 ms> 00000031 83000826 01 00 00 00 25 00 00 00 40 00 00 6A D1 FF FF 00 40 44 40 3D 0A 93 36 46 00 D2 00 40 20 00 41 00 01 51 03 00 00 00 00 00 00 00 00 00 00 Status = 1
+37 bytes
+13:05:43.0: == #64  S_MEAS: GRP_RealTimeData, +ms = -11926 (2026-10-31 13:03:34.904), CHN_CountRate = 3.07 cps, CHN_DoseRate = 43.8 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 210 -> 21%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:43.0: == #65  S_MEAS:      GRP_RawData, +ms =   849 (2026-10-31 13:05:42.654), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:05:43.5: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[04.RD_VIRT_STRING: 12] 00000008 84000826 00 01 00 00  androidx.work-1*<04.RD_VIRT_STRING: 31, 0/1 ms> 0000001B 84000826 01 00 00 00 0F 00 00 00 42 00 01 84 03 00 00 00 00 00 40 17 B7 D1 34 Status = 1
+15 bytes
+13:05:43.5: == #66  S_MEAS:      GRP_RawData, +ms =   900 (2026-10-31 13:05:43.164), CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+13:05:44.0: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[05.RD_VIRT_STRING: 12] 00000008 85000826 00 01 00 00  androidx.work-1*<05.RD_VIRT_STRING: 53, 1/0 ms> 00000031 85000826 01 00 00 00 25 00 00 00 43 00 00 CE D1 FF FF 00 00 44 40 63 EE 92 36 46 00 D2 00 40 20 00 44 00 01 B5 03 00 00 00 00 80 40 B3 7B 72 36 Status = 1
+37 bytes
+13:05:44.0: == #67  S_MEAS: GRP_RealTimeData, +ms = -11826 (2026-10-31 13:03:35.904), CHN_CountRate = 3.06 cps, CHN_DoseRate = 43.8 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 210 -> 21%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:44.0: == #68  S_MEAS:      GRP_RawData, +ms =   949 (2026-10-31 13:05:43.654), CHN_CountRate = 4 cps, CHN_DoseRate = 36.1 nSv/h
+13:05:44.5: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[06.RD_VIRT_STRING: 12] 00000008 86000826 00 01 00 00  androidx.work-1*<06.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 86000826 01 00 00 00 0F 00 00 00 45 00 01 E8 03 00 00 00 00 C0 40 17 B7 D1 35 Status = 1
+15 bytes
+13:05:44.5: == #69  S_MEAS:      GRP_RawData, +ms =  1000 (2026-10-31 13:05:44.164), CHN_CountRate = 6 cps, CHN_DoseRate = 15.6 nSv/h
+13:05:45.0: Loading spectrum: "Co-60"
+13:05:45.0: Send_OnCustomEvent(EVT_BACKGROUND_SET, 1, 0)
+13:05:45.0: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[07.RD_VIRT_STRING: 12] 00000008 87000826 00 01 00 00  androidx.work-1*<07.RD_VIRT_STRING: 53, 0/1 ms> 00000031 87000826 01 00 00 00 25 00 00 00 46 00 00 32 D2 FF FF 00 80 44 40 A9 13 94 36 46 00 D1 00 40 20 00 47 00 01 19 04 00 00 00 00 80 40 52 49 9D 37 Status = 1
+37 bytes
+13:05:45.0: == #70  S_MEAS: GRP_RealTimeData, +ms = -11726 (2026-10-31 13:03:36.904), CHN_CountRate = 3.07 cps, CHN_DoseRate = 44.1 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 209 -> 20.9%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:45.0: == #71  S_MEAS:      GRP_RawData, +ms =  1049 (2026-10-31 13:05:44.654), CHN_CountRate = 4 cps, CHN_DoseRate = 188 nSv/h
+13:05:45.5: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[08.RD_VIRT_STRING: 12] 00000008 88000826 00 01 00 00  androidx.work-1*<08.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 88000826 01 00 00 00 0F 00 00 00 48 00 01 4C 04 00 00 00 00 00 00 00 00 00 00 Status = 1
+15 bytes
+13:05:45.5: == #72  S_MEAS:      GRP_RawData, +ms =  1100 (2026-10-31 13:05:45.164), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:05:46.0: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[09.RD_VIRT_STRING: 12] 00000008 89000826 00 01 00 00  androidx.work-1*<09.RD_VIRT_STRING: 53, 1/1 ms> 00000031 89000826 01 00 00 00 25 00 00 00 49 00 00 96 D2 FF FF 00 00 44 40 44 69 93 36 46 00 D2 00 40 20 00 4A 00 01 7D 04 00 00 00 00 00 40 6F 12 03 35 Status = 1
+37 bytes
+13:05:46.0: == #73  S_MEAS: GRP_RealTimeData, +ms = -11626 (2026-10-31 13:03:37.904), CHN_CountRate = 3.06 cps, CHN_DoseRate = 43.9 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 210 -> 21%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:46.0: == #74  S_MEAS:      GRP_RawData, +ms =  1149 (2026-10-31 13:05:45.654), CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+13:05:46.5: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[0A.RD_VIRT_STRING: 12] 00000008 8A000826 00 01 00 00  androidx.work-1*<0A.RD_VIRT_STRING: 31, 1/0 ms> 0000001B 8A000826 01 00 00 00 0F 00 00 00 4B 00 01 B0 04 00 00 00 00 80 40 B3 7B 72 36 Status = 1
+15 bytes
+13:05:46.6: == #75  S_MEAS:      GRP_RawData, +ms =  1200 (2026-10-31 13:05:46.164), CHN_CountRate = 4 cps, CHN_DoseRate = 36.1 nSv/h
+13:05:47.0: Doser: Load(false)
+Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[0B.RD_VIRT_STRING: 12] 00000008 8B000826 00 01 00 00  androidx.work-1*<0B.RD_VIRT_STRING: 53, 1/0 ms> 00000031 8B000826 01 00 00 00 25 00 00 00 4C 00 00 FA D2 FF FF 00 C0 43 40 0B 46 91 36 46 00 D3 00 40 20 00 4D 00 01 E1 04 00 00 00 00 00 00 00 00 00 00 Status = 1
+37 bytes
+== #76  S_MEAS: GRP_RealTimeData, +ms = -11526 (2026-10-31 13:03:38.904), CHN_CountRate = 3.06 cps, CHN_DoseRate = 43.3 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 211 -> 21.1%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+== #77  S_MEAS:      GRP_RawData, +ms =  1249 (2026-10-31 13:05:46.654), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[0C.RD_VIRT_STRING: 12] 00000008 8C000826 00 01 00 00  androidx.work-1*<0C.RD_VIRT_STRING: 31, 1/0 ms> 0000001B 8C000826 01 00 00 00 0F 00 00 00 4E 00 01 14 05 00 00 00 00 00 40 52 49 1D 35 Status = 1
+15 bytes
+== #78  S_MEAS:      GRP_RawData, +ms =  1300 (2026-10-31 13:05:47.164), CHN_CountRate = 2 cps, CHN_DoseRate = 5.86 nSv/h
+Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[0D.RD_VIRT_STRING: 12] 00000008 8D000826 00 01 00 00  androidx.work-1*<0D.RD_VIRT_STRING: 74, 0/0 ms> 00000046 8D000826 01 00 00 00 3A 00 00 00 4F 00 00 5E D3 FF FF 00 C0 43 40 64 5D 90 36 46 00 D4 00 40 20 00 50 00 01 45 05 00 00 00 00 00 40 34 80 37 36 51 00 03 54 05 00 00 56 00 0B 00 43 6F F1 3A CD 0F 10 27 40 30 Status = 1
+58 bytes
+== #79  S_MEAS: GRP_RealTimeData, +ms = -11426 (2026-10-31 13:03:39.904), CHN_CountRate = 3.06 cps, CHN_DoseRate = 43 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 212 -> 21.2%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+== #80  S_MEAS:      GRP_RawData, +ms =  1349 (2026-10-31 13:05:47.654), CHN_CountRate = 2 cps, CHN_DoseRate = 27.3 nSv/h
+== #81  S_MEAS:     GRP_RareData, +ms =  1364 (2026-10-31 13:05:47.804), CHN_Duration = 720982 s, CHN_Dose = 18.4 µSv, CHN_Temperature = 4045 -> 20.5°C, CHN_ChargeLevel = 10000 -> 100%, CHN_Flags = 0x3040, Alarms: -, Pwr: USB, Flags = 00001000: Save to database
+Send_OnCustomEvent(10028 (0x272C), 0, 0)
+13:05:48.7: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[0E.RD_VIRT_STRING: 12] 00000008 8E000826 00 01 00 00  androidx.work-1*<0E.RD_VIRT_STRING: 31, 1/0 ms> 0000001B 8E000826 01 00 00 00 0F 00 00 00 52 00 01 78 05 00 00 00 00 00 40 6F 12 03 35 Status = 1
+15 bytes
+13:05:48.7: == #82  S_MEAS:      GRP_RawData, +ms =  1400 (2026-10-31 13:05:48.164), CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+13:05:49.2: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[0F.RD_VIRT_STRING: 12] 00000008 8F000826 00 01 00 00  androidx.work-1*<0F.RD_VIRT_STRING: 53, 2/0 ms> 00000031 8F000826 01 00 00 00 25 00 00 00 53 00 00 C2 D3 FF FF 00 00 44 40 38 67 90 36 46 00 D4 00 40 20 00 54 00 01 A9 05 00 00 00 00 00 40 6F 12 03 35 Status = 1
+37 bytes
+13:05:49.2: == #83  S_MEAS: GRP_RealTimeData, +ms = -11326 (2026-10-31 13:03:40.904), CHN_CountRate = 3.06 cps, CHN_DoseRate = 43 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 212 -> 21.2%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:49.2: == #84  S_MEAS:      GRP_RawData, +ms =  1449 (2026-10-31 13:05:48.654), CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+13:05:49.7: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[10.RD_VIRT_STRING: 12] 00000008 90000826 00 01 00 00  androidx.work-1*<10.RD_VIRT_STRING: 31, 1/0 ms> 0000001B 90000826 01 00 00 00 0F 00 00 00 55 00 01 DC 05 00 00 00 00 00 40 17 B7 D1 34 Status = 1
+15 bytes
+13:05:49.7: == #85  S_MEAS:      GRP_RawData, +ms =  1500 (2026-10-31 13:05:49.164), CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+13:05:50.2: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[11.RD_VIRT_STRING: 12] 00000008 91000826 00 01 00 00  androidx.work-1*<11.RD_VIRT_STRING: 53, 1/1 ms> 00000031 91000826 01 00 00 00 25 00 00 00 56 00 00 26 D4 FF FF 00 00 44 40 DC 68 90 36 46 00 D4 00 40 20 00 57 00 01 0D 06 00 00 00 00 00 00 00 00 00 00 Status = 1
+37 bytes
+13:05:50.2: == #86  S_MEAS: GRP_RealTimeData, +ms = -11226 (2026-10-31 13:03:41.904), CHN_CountRate = 3.06 cps, CHN_DoseRate = 43 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 212 -> 21.2%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:50.2: == #87  S_MEAS:      GRP_RawData, +ms =  1549 (2026-10-31 13:05:49.654), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:05:50.7: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[12.RD_VIRT_STRING: 12] 00000008 92000826 00 01 00 00  androidx.work-1*<12.RD_VIRT_STRING: 31, 1/0 ms> 0000001B 92000826 01 00 00 00 0F 00 00 00 58 00 01 40 06 00 00 00 00 00 40 17 B7 D1 34 Status = 1
+15 bytes
+13:05:50.7: == #88  S_MEAS:      GRP_RawData, +ms =  1600 (2026-10-31 13:05:50.164), CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+13:05:51.2: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[13.RD_VIRT_STRING: 12] 00000008 93000826 00 01 00 00  androidx.work-1*<13.RD_VIRT_STRING: 53, 1/1 ms> 00000031 93000826 01 00 00 00 25 00 00 00 59 00 00 8A D4 FF FF 00 40 44 40 F7 75 90 36 46 00 D4 00 40 20 00 5A 00 01 71 06 00 00 00 00 00 40 17 B7 51 35 Status = 1
+37 bytes
+13:05:51.2: == #89  S_MEAS: GRP_RealTimeData, +ms = -11126 (2026-10-31 13:03:42.904), CHN_CountRate = 3.07 cps, CHN_DoseRate = 43.1 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 212 -> 21.2%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:51.2: == #90  S_MEAS:      GRP_RawData, +ms =  1649 (2026-10-31 13:05:50.654), CHN_CountRate = 2 cps, CHN_DoseRate = 7.81 nSv/h
+13:05:51.7: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[14.RD_VIRT_STRING: 12] 00000008 94000826 00 01 00 00  androidx.work-1*<14.RD_VIRT_STRING: 31, 1/0 ms> 0000001B 94000826 01 00 00 00 0F 00 00 00 5B 00 01 A4 06 00 00 00 00 00 00 00 00 00 00 Status = 1
+15 bytes
+13:05:51.7: == #91  S_MEAS:      GRP_RawData, +ms =  1700 (2026-10-31 13:05:51.164), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:05:52.2: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[15.RD_VIRT_STRING: 12] 00000008 95000826 00 01 00 00  androidx.work-1*<15.RD_VIRT_STRING: 53, 1/0 ms> 00000031 95000826 01 00 00 00 25 00 00 00 5C 00 00 EE D4 FF FF 00 00 45 40 22 6C 94 36 46 00 D4 00 40 20 00 5D 00 01 D5 06 00 00 00 00 40 41 4A 0C 82 38 Status = 1
+37 bytes
+13:05:52.2: == #92  S_MEAS: GRP_RealTimeData, +ms = -11026 (2026-10-31 13:03:43.904), CHN_CountRate = 3.08 cps, CHN_DoseRate = 44.2 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 212 -> 21.2%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:52.3: == #93  S_MEAS:      GRP_RawData, +ms =  1749 (2026-10-31 13:05:51.654), CHN_CountRate = 12 cps, CHN_DoseRate = 620 nSv/h
+13:05:52.8: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[16.RD_VIRT_STRING: 12] 00000008 96000826 00 01 00 00  androidx.work-1*<16.RD_VIRT_STRING: 31, 1/0 ms> 0000001B 96000826 01 00 00 00 0F 00 00 00 5E 00 01 08 07 00 00 00 00 00 00 00 00 00 00 Status = 1
+15 bytes
+13:05:52.8: == #94  S_MEAS:      GRP_RawData, +ms =  1800 (2026-10-31 13:05:52.164), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:05:53.3: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[17.RD_VIRT_STRING: 12] 00000008 97000826 00 01 00 00  androidx.work-1*<17.RD_VIRT_STRING: 53, 0/2 ms> 00000031 97000826 01 00 00 00 25 00 00 00 5F 00 00 52 D5 FF FF 00 00 44 40 D6 56 94 36 46 00 D5 00 40 20 00 60 00 01 39 07 00 00 00 00 00 40 E0 2D 90 35 Status = 1
+37 bytes
+13:05:53.3: == #95  S_MEAS: GRP_RealTimeData, +ms = -10926 (2026-10-31 13:03:44.904), CHN_CountRate = 3.06 cps, CHN_DoseRate = 44.2 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 213 -> 21.3%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:53.3: == #96  S_MEAS:      GRP_RawData, +ms =  1849 (2026-10-31 13:05:52.654), CHN_CountRate = 2 cps, CHN_DoseRate = 10.7 nSv/h
+13:05:53.8: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[18.RD_VIRT_STRING: 12] 00000008 98000826 00 01 00 00  androidx.work-1*<18.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 98000826 01 00 00 00 0F 00 00 00 61 00 01 6C 07 00 00 00 00 80 40 6C 09 F9 35 Status = 1
+15 bytes
+13:05:53.8: == #97  S_MEAS:      GRP_RawData, +ms =  1900 (2026-10-31 13:05:53.164), CHN_CountRate = 4 cps, CHN_DoseRate = 18.6 nSv/h
+13:05:54.3: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[19.RD_VIRT_STRING: 12] 00000008 99000826 00 01 00 00  androidx.work-1*<19.RD_VIRT_STRING: 53, 1/0 ms> 00000031 99000826 01 00 00 00 25 00 00 00 62 00 00 B6 D5 FF FF 00 80 44 40 DC 68 94 36 46 00 D4 00 40 20 00 63 00 01 9D 07 00 00 00 00 00 40 34 80 B7 35 Status = 1
+37 bytes
+13:05:54.3: == #98  S_MEAS: GRP_RealTimeData, +ms = -10826 (2026-10-31 13:03:45.904), CHN_CountRate = 3.07 cps, CHN_DoseRate = 44.2 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 212 -> 21.2%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:54.3: == #99  S_MEAS:      GRP_RawData, +ms =  1949 (2026-10-31 13:05:53.654), CHN_CountRate = 2 cps, CHN_DoseRate = 13.7 nSv/h
+13:05:54.8: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1A.RD_VIRT_STRING: 12] 00000008 9A000826 00 01 00 00  androidx.work-1*<1A.RD_VIRT_STRING: 31, 2/0 ms> 0000001B 9A000826 01 00 00 00 0F 00 00 00 64 00 01 D0 07 00 00 00 00 80 40 98 DD 13 38 Status = 1
+15 bytes
+13:05:54.8: == #100 S_MEAS:      GRP_RawData, +ms =  2000 (2026-10-31 13:05:54.164), CHN_CountRate = 4 cps, CHN_DoseRate = 353 nSv/h
+13:05:55.3: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1B.RD_VIRT_STRING: 12] 00000008 9B000826 00 01 00 00  androidx.work-1*<1B.RD_VIRT_STRING: 53, 0/1 ms> 00000031 9B000826 01 00 00 00 25 00 00 00 65 00 00 1A D6 FF FF 00 C0 45 40 8F E4 96 36 46 00 D3 00 40 20 00 66 00 01 01 08 00 00 00 00 C0 40 7C F2 30 36 Status = 1
+37 bytes
+13:05:55.3: == #101 S_MEAS: GRP_RealTimeData, +ms = -10726 (2026-10-31 13:03:46.904), CHN_CountRate = 3.09 cps, CHN_DoseRate = 45 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 211 -> 21.1%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:55.3: == #102 S_MEAS:      GRP_RawData, +ms =  2049 (2026-10-31 13:05:54.654), CHN_CountRate = 6 cps, CHN_DoseRate = 26.4 nSv/h
+13:05:55.8: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1C.RD_VIRT_STRING: 12] 00000008 9C000826 00 01 00 00  androidx.work-1*<1C.RD_VIRT_STRING: 31, 0/1 ms> 0000001B 9C000826 01 00 00 00 0F 00 00 00 67 00 01 34 08 00 00 00 00 00 00 00 00 00 00 Status = 1
+15 bytes
+13:05:55.8: == #103 S_MEAS:      GRP_RawData, +ms =  2100 (2026-10-31 13:05:55.164), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:05:56.3: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1D.RD_VIRT_STRING: 12] 00000008 9D000826 00 01 00 00  androidx.work-1*<1D.RD_VIRT_STRING: 53, 1/0 ms> 00000031 9D000826 01 00 00 00 25 00 00 00 68 00 00 7E D6 FF FF 00 80 45 40 BA DA 96 36 46 00 D3 00 40 20 00 69 00 01 65 08 00 00 00 00 80 40 C3 64 AA 35 Status = 1
+37 bytes
+13:05:56.4: == #104 S_MEAS: GRP_RealTimeData, +ms = -10626 (2026-10-31 13:03:47.904), CHN_CountRate = 3.09 cps, CHN_DoseRate = 45 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 211 -> 21.1%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:56.4: == #105 S_MEAS:      GRP_RawData, +ms =  2149 (2026-10-31 13:05:55.654), CHN_CountRate = 4 cps, CHN_DoseRate = 12.7 nSv/h
+13:05:56.9: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1E.RD_VIRT_STRING: 12] 00000008 9E000826 00 01 00 00  androidx.work-1*<1E.RD_VIRT_STRING: 67, 1/1 ms> 0000003F 9E000826 01 00 00 00 33 00 00 00 6A 00 00 E2 D6 FF FF 00 C0 44 40 7D AE 96 36 46 00 D3 00 40 20 00 6B 01 01 98 08 00 00 02 00 31 00 00 00 00 00 00 00 00 00 00 00 00 00 80 40 17 B7 51 35 Status = 1
+51 bytes
+13:05:56.9: == #106 S_MEAS: GRP_RealTimeData, +ms = -10526 (2026-10-31 13:03:48.904), CHN_CountRate = 3.07 cps, CHN_DoseRate = 44.9 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 211 -> 21.1%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:56.9: == #107 M_MEAS:      GRP_RawData, +ms =  2200 (2026-10-31 13:05:56.164), SamplesNum = 2, SmplTime = 49 -> 490 ms
+  #0: CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+  #1: CHN_CountRate = 4 cps, CHN_DoseRate = 7.81 nSv/h
+
+13:05:57.4: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1F.RD_VIRT_STRING: 12] 00000008 9F000826 00 01 00 00  androidx.work-1*<1F.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 9F000826 01 00 00 00 0F 00 00 00 6C 00 01 FC 08 00 00 00 00 00 40 6F 12 03 35 Status = 1
+15 bytes
+13:05:57.4: == #108 S_MEAS:      GRP_RawData, +ms =  2300 (2026-10-31 13:05:57.164), CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+13:05:57.9: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[00.RD_VIRT_STRING: 12] 00000008 80000826 00 01 00 00  androidx.work-1*<00.RD_VIRT_STRING: 53, 1/0 ms> 00000031 80000826 01 00 00 00 25 00 00 00 6D 00 00 46 D7 FF FF 00 40 44 40 C7 29 96 36 46 00 D4 00 40 20 00 6E 00 01 2D 09 00 00 00 00 00 40 52 49 1D 35 Status = 1
+37 bytes
+13:05:57.9: == #109 S_MEAS: GRP_RealTimeData, +ms = -10426 (2026-10-31 13:03:49.904), CHN_CountRate = 3.07 cps, CHN_DoseRate = 44.8 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 212 -> 21.2%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:57.9: == #110 S_MEAS:      GRP_RawData, +ms =  2349 (2026-10-31 13:05:57.654), CHN_CountRate = 2 cps, CHN_DoseRate = 5.86 nSv/h
+13:05:58.4: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[01.RD_VIRT_STRING: 12] 00000008 81000826 00 01 00 00  androidx.work-1*<01.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 81000826 01 00 00 00 0F 00 00 00 6F 00 01 60 09 00 00 00 00 00 00 00 00 00 00 Status = 1
+15 bytes
+13:05:58.4: == #111 S_MEAS:      GRP_RawData, +ms =  2400 (2026-10-31 13:05:58.164), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:05:58.9: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[02.RD_VIRT_STRING: 12] 00000008 82000826 00 01 00 00  androidx.work-1*<02.RD_VIRT_STRING: 53, 1/0 ms> 00000031 82000826 01 00 00 00 25 00 00 00 70 00 00 AA D7 FF FF 00 80 43 40 FD F6 95 36 46 00 D4 00 40 20 00 71 00 01 91 09 00 00 00 00 00 00 00 00 00 00 Status = 1
+37 bytes
+13:05:58.9: == #112 S_MEAS: GRP_RealTimeData, +ms = -10326 (2026-10-31 13:03:50.904), CHN_CountRate = 3.05 cps, CHN_DoseRate = 44.7 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 212 -> 21.2%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:05:58.9: == #113 S_MEAS:      GRP_RawData, +ms =  2449 (2026-10-31 13:05:58.654), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:05:59.4: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[03.RD_VIRT_STRING: 12] 00000008 83000826 00 01 00 00  androidx.work-1*<03.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 83000826 01 00 00 00 0F 00 00 00 72 00 01 C4 09 00 00 00 00 C0 40 C3 64 AA 35 Status = 1
+15 bytes
+13:05:59.4: == #114 S_MEAS:      GRP_RawData, +ms =  2500 (2026-10-31 13:05:59.164), CHN_CountRate = 6 cps, CHN_DoseRate = 12.7 nSv/h
+13:05:59.7: MessageBoxer("", "Exit application?")
+13:05:59.9: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[04.RD_VIRT_STRING: 12] 00000008 84000826 00 01 00 00  androidx.work-1*<04.RD_VIRT_STRING: 53, 1/0 ms> 00000031 84000826 01 00 00 00 25 00 00 00 73 00 00 0E D8 FF FF 00 40 44 40 BE 9F 96 36 46 00 D3 00 40 20 00 74 00 01 F5 09 00 00 00 00 00 40 07 5F 18 37 Status = 1
+37 bytes
+13:05:59.9: == #115 S_MEAS: GRP_RealTimeData, +ms = -10226 (2026-10-31 13:03:51.904), CHN_CountRate = 3.07 cps, CHN_DoseRate = 44.9 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 211 -> 21.1%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:00.0: == #116 S_MEAS:      GRP_RawData, +ms =  2549 (2026-10-31 13:05:59.654), CHN_CountRate = 2 cps, CHN_DoseRate = 90.8 nSv/h
+13:06:00.5: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[05.RD_VIRT_STRING: 12] 00000008 85000826 00 01 00 00  androidx.work-1*<05.RD_VIRT_STRING: 31, 0/1 ms> 0000001B 85000826 01 00 00 00 0F 00 00 00 75 00 01 28 0A 00 00 00 00 00 00 00 00 00 00 Status = 1
+15 bytes
+13:06:00.5: == #117 S_MEAS:      GRP_RawData, +ms =  2600 (2026-10-31 13:06:00.164), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:06:01.0: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[06.RD_VIRT_STRING: 12] 00000008 86000826 00 01 00 00  androidx.work-1*<06.RD_VIRT_STRING: 53, 1/1 ms> 00000031 86000826 01 00 00 00 25 00 00 00 76 00 00 72 D8 FF FF 00 40 44 40 CB 10 97 36 46 00 D3 00 40 20 00 77 00 01 59 0A 00 00 00 00 00 41 2E 90 20 37 Status = 1
+37 bytes
+13:06:01.0: == #118 S_MEAS: GRP_RealTimeData, +ms = -10126 (2026-10-31 13:03:52.904), CHN_CountRate = 3.07 cps, CHN_DoseRate = 45 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 211 -> 21.1%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:01.0: == #119 S_MEAS:      GRP_RawData, +ms =  2649 (2026-10-31 13:06:00.654), CHN_CountRate = 8 cps, CHN_DoseRate = 95.7 nSv/h
+13:06:01.5: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[07.RD_VIRT_STRING: 12] 00000008 87000826 00 01 00 00  androidx.work-1*<07.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 87000826 01 00 00 00 0F 00 00 00 78 00 01 8C 0A 00 00 00 00 80 40 A6 9B C4 35 Status = 1
+15 bytes
+13:06:01.5: == #120 S_MEAS:      GRP_RawData, +ms =  2700 (2026-10-31 13:06:01.164), CHN_CountRate = 4 cps, CHN_DoseRate = 14.6 nSv/h
+13:06:02.0: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[08.RD_VIRT_STRING: 12] 00000008 88000826 00 01 00 00  androidx.work-1*<08.RD_VIRT_STRING: 53, 2/0 ms> 00000031 88000826 01 00 00 00 25 00 00 00 79 00 00 D6 D8 FF FF 00 00 45 40 90 31 97 36 46 00 D3 00 40 20 00 7A 00 01 BD 0A 00 00 00 00 00 40 6F 12 03 35 Status = 1
+37 bytes
+13:06:02.0: == #121 S_MEAS: GRP_RealTimeData, +ms = -10026 (2026-10-31 13:03:53.904), CHN_CountRate = 3.08 cps, CHN_DoseRate = 45.1 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 211 -> 21.1%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:02.0: == #122 S_MEAS:      GRP_RawData, +ms =  2749 (2026-10-31 13:06:01.654), CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+13:06:02.3: [No]
+13:06:02.5: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[09.RD_VIRT_STRING: 12] 00000008 89000826 00 01 00 00  androidx.work-1*<09.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 89000826 01 00 00 00 0F 00 00 00 7B 00 01 F0 0A 00 00 00 00 C0 40 52 49 1D 37 Status = 1
+15 bytes
+13:06:02.5: == #123 S_MEAS:      GRP_RawData, +ms =  2800 (2026-10-31 13:06:02.164), CHN_CountRate = 6 cps, CHN_DoseRate = 93.8 nSv/h
+13:06:03.0: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[0A.RD_VIRT_STRING: 12] 00000008 8A000826 00 01 00 00  androidx.work-1*<0A.RD_VIRT_STRING: 53, 1/1 ms> 00000031 8A000826 01 00 00 00 25 00 00 00 7C 00 00 3A D9 FF FF 00 C0 45 40 7D D0 97 36 46 00 D2 00 40 20 00 7D 00 01 21 0B 00 00 00 00 00 40 6F 12 03 35 Status = 1
+37 bytes
+13:06:03.0: == #124 S_MEAS: GRP_RealTimeData, +ms = -9926 (2026-10-31 13:03:54.904), CHN_CountRate = 3.09 cps, CHN_DoseRate = 45.2 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 210 -> 21%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:03.0: == #125 S_MEAS:      GRP_RawData, +ms =  2849 (2026-10-31 13:06:02.654), CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+13:06:03.5: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[0B.RD_VIRT_STRING: 12] 00000008 8B000826 00 01 00 00  androidx.work-1*<0B.RD_VIRT_STRING: 31, 1/0 ms> 0000001B 8B000826 01 00 00 00 0F 00 00 00 7E 00 01 54 0B 00 00 00 00 00 40 6F 12 03 35 Status = 1
+15 bytes
+13:06:03.5: == #126 S_MEAS:      GRP_RawData, +ms =  2900 (2026-10-31 13:06:03.164), CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+13:06:03.6: Read VString: RC_VS_SPEC_DIFF (0x206)
+pool-7-thread-1*[0C.RD_VIRT_STRING: 12] 00000008 8C000826 06 02 00 00  pool-7-thread-1*<0C.RD_VIRT_STRING: 168, 1/1 ms> 000000A4 8C000826 01 00 00 00 98 00 00 00 1E 00 00 00 00 00 00 00 D1 02 01 01 01 00 00 01 02 02 02 00 01 01 01 04 02 01 01 01 00 03 00 01 00 01 02 01 01 01 02 02 01 01 00 02 01 02 00 01 01 01 00 00 01 01 02 30 00 81 00 01 01 00 01 00 00 01 01 40 00 21 00 01 02 40 00 D1 00 02 00 01 00 00 01 00 01 00 00 01 01 01 C0 00 31 00 01 02 01 80 00 11 00 01 A0 00 11 00 01 90 00 11 00 01 60 00 11 00 01 D0 00 11 00 01 A0 00 11 00 01 E0 00 11 00 01 E0 01 11 00 01 60 05 11 00 01 40 13 11 00 01 90 1A 11 00 01 Status = 1
+152 bytes
+13:06:04.0: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[0D.RD_VIRT_STRING: 12] 00000008 8D000826 00 01 00 00  androidx.work-1*<0D.RD_VIRT_STRING: 53, 1/0 ms> 00000031 8D000826 01 00 00 00 25 00 00 00 7F 00 00 9E D9 FF FF 00 C0 45 40 ED 9E 98 36 46 00 D1 00 40 20 00 80 00 01 85 0B 00 00 00 00 80 40 B0 03 67 37 Status = 1
+37 bytes
+13:06:04.0: == #127 S_MEAS: GRP_RealTimeData, +ms = -9826 (2026-10-31 13:03:55.904), CHN_CountRate = 3.09 cps, CHN_DoseRate = 45.5 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 209 -> 20.9%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:04.0: == #128 S_MEAS:      GRP_RawData, +ms =  2949 (2026-10-31 13:06:03.654), CHN_CountRate = 4 cps, CHN_DoseRate = 138 nSv/h
+13:06:04.2: Read VString: RC_VS_SPEC_DIFF (0x206)
+pool-7-thread-1*[0E.RD_VIRT_STRING: 12] 00000008 8E000826 06 02 00 00  pool-7-thread-1*<0E.RD_VIRT_STRING: 36, 0/1 ms> 00000020 8E000826 01 00 00 00 14 00 00 00 1E 00 00 00 00 00 00 00 80 02 11 00 01 80 0C 11 00 01 E0 30 Status = 1
+20 bytes
+13:06:04.5: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[0F.RD_VIRT_STRING: 12] 00000008 8F000826 00 01 00 00  androidx.work-1*<0F.RD_VIRT_STRING: 31, 0/0 ms> 0000001B 8F000826 01 00 00 00 0F 00 00 00 81 00 01 B8 0B 00 00 00 00 00 00 00 00 00 00 Status = 1
+15 bytes
+13:06:04.5: == #129 S_MEAS:      GRP_RawData, +ms =  3000 (2026-10-31 13:06:04.164), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:06:05.0: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[10.RD_VIRT_STRING: 12] 00000008 90000826 00 01 00 00  androidx.work-1*<10.RD_VIRT_STRING: 53, 1/0 ms> 00000031 90000826 01 00 00 00 25 00 00 00 82 00 00 02 DA FF FF 00 80 45 40 49 9D 98 36 46 00 D1 00 40 20 00 83 00 01 E9 0B 00 00 00 00 00 40 6F 12 03 35 Status = 1
+37 bytes
+13:06:05.0: == #130 S_MEAS: GRP_RealTimeData, +ms = -9726 (2026-10-31 13:03:56.904), CHN_CountRate = 3.09 cps, CHN_DoseRate = 45.5 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 209 -> 20.9%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:05.1: == #131 S_MEAS:      GRP_RawData, +ms =  3049 (2026-10-31 13:06:04.654), CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+13:06:05.6: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[11.RD_VIRT_STRING: 12] 00000008 91000826 00 01 00 00  androidx.work-1*<11.RD_VIRT_STRING: 31, 0/0 ms> 0000001B 91000826 01 00 00 00 0F 00 00 00 84 00 01 1C 0C 00 00 00 00 00 00 00 00 00 00 Status = 1
+15 bytes
+13:06:05.6: == #132 S_MEAS:      GRP_RawData, +ms =  3100 (2026-10-31 13:06:05.164), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:06:06.1: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[12.RD_VIRT_STRING: 12] 00000008 92000826 00 01 00 00  androidx.work-1*<12.RD_VIRT_STRING: 53, 0/1 ms> 00000031 92000826 01 00 00 00 25 00 00 00 85 00 00 66 DA FF FF 00 40 45 40 E1 7A 98 36 46 00 D1 00 40 20 00 86 00 01 4D 0C 00 00 00 00 00 40 17 B7 D1 34 Status = 1
+37 bytes
+13:06:06.1: == #133 S_MEAS: GRP_RealTimeData, +ms = -9626 (2026-10-31 13:03:57.904), CHN_CountRate = 3.08 cps, CHN_DoseRate = 45.4 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 209 -> 20.9%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:06.1: == #134 S_MEAS:      GRP_RawData, +ms =  3149 (2026-10-31 13:06:05.654), CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+13:06:06.6: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[13.RD_VIRT_STRING: 12] 00000008 93000826 00 01 00 00  androidx.work-1*<13.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 93000826 01 00 00 00 0F 00 00 00 87 00 01 80 0C 00 00 00 00 00 00 00 00 00 00 Status = 1
+15 bytes
+13:06:06.6: == #135 S_MEAS:      GRP_RawData, +ms =  3200 (2026-10-31 13:06:06.164), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:06:07.1: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[14.RD_VIRT_STRING: 12] 00000008 94000826 00 01 00 00  androidx.work-1*<14.RD_VIRT_STRING: 53, 0/0 ms> 00000031 94000826 01 00 00 00 25 00 00 00 88 00 00 CA DA FF FF 00 00 45 40 17 48 98 36 46 00 D2 00 40 20 00 89 00 01 B1 0C 00 00 00 00 00 40 17 B7 D1 34 Status = 1
+37 bytes
+13:06:07.1: == #136 S_MEAS: GRP_RealTimeData, +ms = -9526 (2026-10-31 13:03:58.904), CHN_CountRate = 3.08 cps, CHN_DoseRate = 45.4 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 210 -> 21%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:07.1: == #137 S_MEAS:      GRP_RawData, +ms =  3249 (2026-10-31 13:06:06.654), CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+13:06:07.6: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[15.RD_VIRT_STRING: 12] 00000008 95000826 00 01 00 00  androidx.work-1*<15.RD_VIRT_STRING: 31, 0/0 ms> 0000001B 95000826 01 00 00 00 0F 00 00 00 8A 00 01 E4 0C 00 00 00 00 80 40 6F 12 83 35 Status = 1
+15 bytes
+13:06:07.6: == #138 S_MEAS:      GRP_RawData, +ms =  3300 (2026-10-31 13:06:07.164), CHN_CountRate = 4 cps, CHN_DoseRate = 9.77 nSv/h
+13:06:08.1: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[16.RD_VIRT_STRING: 12] 00000008 96000826 00 01 00 00  androidx.work-1*<16.RD_VIRT_STRING: 53, 1/0 ms> 00000031 96000826 01 00 00 00 25 00 00 00 8B 00 00 2E DB FF FF 00 C0 45 40 DC 68 98 36 46 00 D1 00 40 20 00 8C 00 01 15 0D 00 00 00 00 80 40 34 80 B7 35 Status = 1
+37 bytes
+13:06:08.1: == #139 S_MEAS: GRP_RealTimeData, +ms = -9426 (2026-10-31 13:03:59.904), CHN_CountRate = 3.09 cps, CHN_DoseRate = 45.4 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 209 -> 20.9%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:08.1: == #140 S_MEAS:      GRP_RawData, +ms =  3349 (2026-10-31 13:06:07.654), CHN_CountRate = 4 cps, CHN_DoseRate = 13.7 nSv/h
+13:06:08.6: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[17.RD_VIRT_STRING: 12] 00000008 97000826 00 01 00 00  androidx.work-1*<17.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 97000826 01 00 00 00 0F 00 00 00 8D 00 01 48 0D 00 00 00 00 00 00 00 00 00 00 Status = 1
+15 bytes
+13:06:08.6: == #141 S_MEAS:      GRP_RawData, +ms =  3400 (2026-10-31 13:06:08.164), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:06:09.1: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[18.RD_VIRT_STRING: 12] 00000008 98000826 00 01 00 00  androidx.work-1*<18.RD_VIRT_STRING: 53, 1/0 ms> 00000031 98000826 01 00 00 00 25 00 00 00 8E 00 00 92 DB FF FF 00 C0 45 40 DE 93 97 36 46 00 D2 00 40 20 00 8F 00 01 79 0D 00 00 00 00 C0 40 6F 12 03 36 Status = 1
+37 bytes
+13:06:09.1: == #142 S_MEAS: GRP_RealTimeData, +ms = -9326 (2026-10-31 13:04:00.904), CHN_CountRate = 3.09 cps, CHN_DoseRate = 45.2 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 210 -> 21%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:09.1: == #143 S_MEAS:      GRP_RawData, +ms =  3449 (2026-10-31 13:06:08.654), CHN_CountRate = 6 cps, CHN_DoseRate = 19.5 nSv/h
+13:06:09.6: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[19.RD_VIRT_STRING: 12] 00000008 99000826 00 01 00 00  androidx.work-1*<19.RD_VIRT_STRING: 31, 1/0 ms> 0000001B 99000826 01 00 00 00 0F 00 00 00 90 00 01 AC 0D 00 00 00 00 20 41 09 F9 20 38 Status = 1
+15 bytes
+13:06:09.6: == #144 S_MEAS:      GRP_RawData, +ms =  3500 (2026-10-31 13:06:09.164), CHN_CountRate = 10 cps, CHN_DoseRate = 384 nSv/h
+13:06:10.1: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1A.RD_VIRT_STRING: 12] 00000008 9A000826 00 01 00 00  androidx.work-1*<1A.RD_VIRT_STRING: 53, 1/1 ms> 00000031 9A000826 01 00 00 00 25 00 00 00 91 00 00 F6 DB FF FF 00 C0 46 40 E8 D9 98 36 46 00 D2 00 40 20 00 92 00 01 DD 0D 00 00 00 00 80 40 34 80 37 35 Status = 1
+37 bytes
+13:06:10.1: == #145 S_MEAS: GRP_RealTimeData, +ms = -9226 (2026-10-31 13:04:01.904), CHN_CountRate = 3.11 cps, CHN_DoseRate = 45.6 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 210 -> 21%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:10.2: == #146 S_MEAS:      GRP_RawData, +ms =  3549 (2026-10-31 13:06:09.654), CHN_CountRate = 4 cps, CHN_DoseRate = 6.84 nSv/h
+13:06:10.5: MessageBoxer("", "Exit application?")
+13:06:10.7: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1B.RD_VIRT_STRING: 12] 00000008 9B000826 00 01 00 00  androidx.work-1*<1B.RD_VIRT_STRING: 31, 0/1 ms> 0000001B 9B000826 01 00 00 00 0F 00 00 00 93 00 01 10 0E 00 00 00 00 00 40 17 B7 D1 34 Status = 1
+15 bytes
+13:06:10.7: == #147 S_MEAS:      GRP_RawData, +ms =  3600 (2026-10-31 13:06:10.164), CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+13:06:11.2: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1C.RD_VIRT_STRING: 12] 00000008 9C000826 00 01 00 00  androidx.work-1*<1C.RD_VIRT_STRING: 53, 1/1 ms> 00000031 9C000826 01 00 00 00 25 00 00 00 94 00 00 5A DC FF FF 00 00 46 40 D3 DE 94 36 46 00 D1 00 40 20 00 95 00 01 41 0E 00 00 00 00 00 00 00 00 00 00 Status = 1
+37 bytes
+13:06:11.2: == #148 S_MEAS: GRP_RealTimeData, +ms = -9126 (2026-10-31 13:04:02.904), CHN_CountRate = 3.09 cps, CHN_DoseRate = 44.4 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 209 -> 20.9%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:11.2: == #149 S_MEAS:      GRP_RawData, +ms =  3649 (2026-10-31 13:06:10.654), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:06:11.7: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1D.RD_VIRT_STRING: 12] 00000008 9D000826 00 01 00 00  androidx.work-1*<1D.RD_VIRT_STRING: 31, 1/0 ms> 0000001B 9D000826 01 00 00 00 0F 00 00 00 96 00 01 74 0E 00 00 00 00 00 40 6F 12 03 35 Status = 1
+15 bytes
+13:06:11.7: == #150 S_MEAS:      GRP_RawData, +ms =  3700 (2026-10-31 13:06:11.164), CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+13:06:12.2: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1E.RD_VIRT_STRING: 12] 00000008 9E000826 00 01 00 00  androidx.work-1*<1E.RD_VIRT_STRING: 53, 0/1 ms> 00000031 9E000826 01 00 00 00 25 00 00 00 97 00 00 BE DC FF FF 00 C0 45 40 A1 D6 94 36 46 00 D2 00 40 20 00 98 00 01 A5 0E 00 00 00 00 00 00 00 00 00 00 Status = 1
+37 bytes
+13:06:12.2: == #151 S_MEAS: GRP_RealTimeData, +ms = -9026 (2026-10-31 13:04:03.904), CHN_CountRate = 3.09 cps, CHN_DoseRate = 44.4 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 210 -> 21%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:12.2: == #152 S_MEAS:      GRP_RawData, +ms =  3749 (2026-10-31 13:06:11.654), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:06:12.7: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[1F.RD_VIRT_STRING: 12] 00000008 9F000826 00 01 00 00  androidx.work-1*<1F.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 9F000826 01 00 00 00 0F 00 00 00 99 00 01 D8 0E 00 00 00 00 C0 40 A6 9B C4 35 Status = 1
+15 bytes
+13:06:12.7: == #153 S_MEAS:      GRP_RawData, +ms =  3800 (2026-10-31 13:06:12.164), CHN_CountRate = 6 cps, CHN_DoseRate = 14.6 nSv/h
+13:06:13.2: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[00.RD_VIRT_STRING: 12] 00000008 80000826 00 01 00 00  androidx.work-1*<00.RD_VIRT_STRING: 53, 1/1 ms> 00000031 80000826 01 00 00 00 25 00 00 00 9A 00 00 22 DD FF FF 00 80 46 40 7C F2 94 36 46 00 D1 00 40 20 00 9B 00 01 09 0F 00 00 00 00 80 40 34 80 B7 35 Status = 1
+37 bytes
+13:06:13.2: == #154 S_MEAS: GRP_RealTimeData, +ms = -8926 (2026-10-31 13:04:04.904), CHN_CountRate = 3.1 cps, CHN_DoseRate = 44.4 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 209 -> 20.9%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:13.2: == #155 S_MEAS:      GRP_RawData, +ms =  3849 (2026-10-31 13:06:12.654), CHN_CountRate = 4 cps, CHN_DoseRate = 13.7 nSv/h
+13:06:13.7: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[01.RD_VIRT_STRING: 12] 00000008 81000826 00 01 00 00  androidx.work-1*<01.RD_VIRT_STRING: 31, 1/0 ms> 0000001B 81000826 01 00 00 00 0F 00 00 00 9C 00 01 3C 0F 00 00 00 00 00 40 6F 12 03 35 Status = 1
+15 bytes
+13:06:13.7: == #156 S_MEAS:      GRP_RawData, +ms =  3900 (2026-10-31 13:06:13.164), CHN_CountRate = 2 cps, CHN_DoseRate = 4.88 nSv/h
+13:06:14.2: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[02.RD_VIRT_STRING: 12] 00000008 82000826 00 01 00 00  androidx.work-1*<02.RD_VIRT_STRING: 53, 1/1 ms> 00000031 82000826 01 00 00 00 25 00 00 00 9D 00 00 86 DD FF FF 00 40 46 40 EE EB 94 36 46 00 D1 00 40 20 00 9E 00 01 6D 0F 00 00 00 00 00 40 17 B7 D1 34 Status = 1
+37 bytes
+13:06:14.2: == #157 S_MEAS: GRP_RealTimeData, +ms = -8826 (2026-10-31 13:04:05.904), CHN_CountRate = 3.1 cps, CHN_DoseRate = 44.4 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 209 -> 20.9%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:14.2: == #158 S_MEAS:      GRP_RawData, +ms =  3949 (2026-10-31 13:06:13.654), CHN_CountRate = 2 cps, CHN_DoseRate = 3.91 nSv/h
+13:06:14.7: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[03.RD_VIRT_STRING: 12] 00000008 83000826 00 01 00 00  androidx.work-1*<03.RD_VIRT_STRING: 31, 1/1 ms> 0000001B 83000826 01 00 00 00 0F 00 00 00 9F 00 01 A0 0F 00 00 00 00 C0 40 52 49 9D 35 Status = 1
+15 bytes
+13:06:14.7: == #159 S_MEAS:      GRP_RawData, +ms =  4000 (2026-10-31 13:06:14.164), CHN_CountRate = 6 cps, CHN_DoseRate = 11.7 nSv/h
+13:06:15.3: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[04.RD_VIRT_STRING: 12] 00000008 84000826 00 01 00 00  androidx.work-1*<04.RD_VIRT_STRING: 53, 1/1 ms> 00000031 84000826 01 00 00 00 25 00 00 00 A0 00 00 EA DD FF FF 00 00 46 40 19 E2 94 36 46 00 D1 00 40 20 00 A1 00 01 D1 0F 00 00 00 00 00 40 52 49 1D 35 Status = 1
+37 bytes
+13:06:15.3: == #160 S_MEAS: GRP_RealTimeData, +ms = -8726 (2026-10-31 13:04:06.904), CHN_CountRate = 3.09 cps, CHN_DoseRate = 44.4 nSv/h, CHN_CountRateErr = 70 -> 7%, CHN_DoseRateErr = 209 -> 20.9%, CHN_Flags = 0x2040, Alarms: -, Pwr: USB, Flags: -, CHN_RealTimeFlags = 0x0, RtFlags: -
+13:06:15.3: == #161 S_MEAS:      GRP_RawData, +ms =  4049 (2026-10-31 13:06:14.654), CHN_CountRate = 2 cps, CHN_DoseRate = 5.86 nSv/h
+13:06:15.8: [Yes]
+13:06:15.8: Read VString: VS_DATA_BUF (0x100)
+androidx.work-1*[05.RD_VIRT_STRING: 12] 00000008 85000826 00 01 00 00  androidx.work-1*<05.RD_VIRT_STRING: 31, 0/1 ms> 0000001B 85000826 01 00 00 00 0F 00 00 00 A2 00 01 04 10 00 00 00 00 00 00 00 00 00 00 Status = 1
+15 bytes
+13:06:15.8: == #162 S_MEAS:      GRP_RawData, +ms =  4100 (2026-10-31 13:06:15.164), CHN_CountRate = 0 cps, CHN_DoseRate = 0 nSv/h
+13:06:15.8: [@10-31-2026 13:05:15] FrameReaderWorker.Stop()
+13:06:15.8: Cancelling location updates
+13:06:15.8: [@10-31-2026 13:05:15] FRWorker state: RUNNING
+13:06:15.838: Closed USB device "RadiaCode-103G"
+13:06:15.8: Send_OnCustomEvent(EVT_DEVICE, 2, 0)
+13:06:15.8: FrameReaderWorker: Exiting WorkingLoop()
+13:06:15.8: [@10-31-2026 13:05:15] FrameReaderWorker: Returning from doWork(): Success
+13:06:15.9: [@10-31-2026 13:05:15] FRWorker state: SUCCEEDED
+13:06:15.9: [@10-31-2026 13:05:15] FRWorker state: SUCCEEDED
+13:06:15.9: [@10-31-2026 13:05:15] FRWorker state: SUCCEEDED
+13:06:15.9: [@10-31-2026 13:05:15] Worker stopped
+13:06:15.9: Cancelling "FRWorker" workers
+13:06:15.9: Closed database "/storage/emulated/0/Android/data/com.almacode.radiacode/files/Database.db"
+13:06:17.2: --- SystemExit() ---
